@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		927C39421B923C8600ED6309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C39411B923C8600ED6309 /* AppDelegate.swift */; };
+		927C39441B923C8600ED6309 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C39431B923C8600ED6309 /* ViewController.swift */; };
+		927C39471B923C8600ED6309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927C39451B923C8600ED6309 /* Main.storyboard */; };
+		927C39491B923C8600ED6309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927C39481B923C8600ED6309 /* Assets.xcassets */; };
+		927C394C1B923C8600ED6309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927C394A1B923C8600ED6309 /* LaunchScreen.storyboard */; };
+		927C39571B923C8600ED6309 /* Wheel_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C39561B923C8600ED6309 /* Wheel_ConverterTests.swift */; };
+		927C39621B923C8600ED6309 /* Wheel_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C39611B923C8600ED6309 /* Wheel_ConverterUITests.swift */; };
+		927C39721B923F3A00ED6309 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 927C39711B923F3A00ED6309 /* www */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		927C39531B923C8600ED6309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 927C39361B923C8600ED6309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 927C393D1B923C8600ED6309;
+			remoteInfo = "Wheel Converter";
+		};
+		927C395E1B923C8600ED6309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 927C39361B923C8600ED6309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 927C393D1B923C8600ED6309;
+			remoteInfo = "Wheel Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		927C393E1B923C8600ED6309 /* Wheel Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheel Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		927C39411B923C8600ED6309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		927C39431B923C8600ED6309 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		927C39461B923C8600ED6309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		927C39481B923C8600ED6309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		927C394B1B923C8600ED6309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		927C394D1B923C8600ED6309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927C39521B923C8600ED6309 /* Wheel ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wheel ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		927C39561B923C8600ED6309 /* Wheel_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel_ConverterTests.swift; sourceTree = "<group>"; };
+		927C39581B923C8600ED6309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927C395D1B923C8600ED6309 /* Wheel ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wheel ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		927C39611B923C8600ED6309 /* Wheel_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel_ConverterUITests.swift; sourceTree = "<group>"; };
+		927C39631B923C8600ED6309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927C39711B923F3A00ED6309 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		927C393B1B923C8600ED6309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927C394F1B923C8600ED6309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927C395A1B923C8600ED6309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		927C39351B923C8600ED6309 = {
+			isa = PBXGroup;
+			children = (
+				927C39711B923F3A00ED6309 /* www */,
+				927C39401B923C8600ED6309 /* Wheel Converter */,
+				927C39551B923C8600ED6309 /* Wheel ConverterTests */,
+				927C39601B923C8600ED6309 /* Wheel ConverterUITests */,
+				927C393F1B923C8600ED6309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		927C393F1B923C8600ED6309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				927C393E1B923C8600ED6309 /* Wheel Converter.app */,
+				927C39521B923C8600ED6309 /* Wheel ConverterTests.xctest */,
+				927C395D1B923C8600ED6309 /* Wheel ConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		927C39401B923C8600ED6309 /* Wheel Converter */ = {
+			isa = PBXGroup;
+			children = (
+				927C39411B923C8600ED6309 /* AppDelegate.swift */,
+				927C39431B923C8600ED6309 /* ViewController.swift */,
+				927C39451B923C8600ED6309 /* Main.storyboard */,
+				927C39481B923C8600ED6309 /* Assets.xcassets */,
+				927C394A1B923C8600ED6309 /* LaunchScreen.storyboard */,
+				927C394D1B923C8600ED6309 /* Info.plist */,
+			);
+			path = "Wheel Converter";
+			sourceTree = "<group>";
+		};
+		927C39551B923C8600ED6309 /* Wheel ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				927C39561B923C8600ED6309 /* Wheel_ConverterTests.swift */,
+				927C39581B923C8600ED6309 /* Info.plist */,
+			);
+			path = "Wheel ConverterTests";
+			sourceTree = "<group>";
+		};
+		927C39601B923C8600ED6309 /* Wheel ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				927C39611B923C8600ED6309 /* Wheel_ConverterUITests.swift */,
+				927C39631B923C8600ED6309 /* Info.plist */,
+			);
+			path = "Wheel ConverterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		927C393D1B923C8600ED6309 /* Wheel Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927C39661B923C8600ED6309 /* Build configuration list for PBXNativeTarget "Wheel Converter" */;
+			buildPhases = (
+				927C393A1B923C8600ED6309 /* Sources */,
+				927C393B1B923C8600ED6309 /* Frameworks */,
+				927C393C1B923C8600ED6309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wheel Converter";
+			productName = "Wheel Converter";
+			productReference = 927C393E1B923C8600ED6309 /* Wheel Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		927C39511B923C8600ED6309 /* Wheel ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927C39691B923C8600ED6309 /* Build configuration list for PBXNativeTarget "Wheel ConverterTests" */;
+			buildPhases = (
+				927C394E1B923C8600ED6309 /* Sources */,
+				927C394F1B923C8600ED6309 /* Frameworks */,
+				927C39501B923C8600ED6309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				927C39541B923C8600ED6309 /* PBXTargetDependency */,
+			);
+			name = "Wheel ConverterTests";
+			productName = "Wheel ConverterTests";
+			productReference = 927C39521B923C8600ED6309 /* Wheel ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		927C395C1B923C8600ED6309 /* Wheel ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927C396C1B923C8600ED6309 /* Build configuration list for PBXNativeTarget "Wheel ConverterUITests" */;
+			buildPhases = (
+				927C39591B923C8600ED6309 /* Sources */,
+				927C395A1B923C8600ED6309 /* Frameworks */,
+				927C395B1B923C8600ED6309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				927C395F1B923C8600ED6309 /* PBXTargetDependency */,
+			);
+			name = "Wheel ConverterUITests";
+			productName = "Wheel ConverterUITests";
+			productReference = 927C395D1B923C8600ED6309 /* Wheel ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		927C39361B923C8600ED6309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EV3Lessons.com;
+				TargetAttributes = {
+					927C393D1B923C8600ED6309 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = BN76QT4G9A;
+					};
+					927C39511B923C8600ED6309 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 927C393D1B923C8600ED6309;
+					};
+					927C395C1B923C8600ED6309 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 927C393D1B923C8600ED6309;
+					};
+				};
+			};
+			buildConfigurationList = 927C39391B923C8600ED6309 /* Build configuration list for PBXProject "Wheel Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 927C39351B923C8600ED6309;
+			productRefGroup = 927C393F1B923C8600ED6309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				927C393D1B923C8600ED6309 /* Wheel Converter */,
+				927C39511B923C8600ED6309 /* Wheel ConverterTests */,
+				927C395C1B923C8600ED6309 /* Wheel ConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		927C393C1B923C8600ED6309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927C39721B923F3A00ED6309 /* www in Resources */,
+				927C394C1B923C8600ED6309 /* LaunchScreen.storyboard in Resources */,
+				927C39491B923C8600ED6309 /* Assets.xcassets in Resources */,
+				927C39471B923C8600ED6309 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927C39501B923C8600ED6309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927C395B1B923C8600ED6309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		927C393A1B923C8600ED6309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927C39441B923C8600ED6309 /* ViewController.swift in Sources */,
+				927C39421B923C8600ED6309 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927C394E1B923C8600ED6309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927C39571B923C8600ED6309 /* Wheel_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927C39591B923C8600ED6309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927C39621B923C8600ED6309 /* Wheel_ConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		927C39541B923C8600ED6309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 927C393D1B923C8600ED6309 /* Wheel Converter */;
+			targetProxy = 927C39531B923C8600ED6309 /* PBXContainerItemProxy */;
+		};
+		927C395F1B923C8600ED6309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 927C393D1B923C8600ED6309 /* Wheel Converter */;
+			targetProxy = 927C395E1B923C8600ED6309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		927C39451B923C8600ED6309 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				927C39461B923C8600ED6309 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		927C394A1B923C8600ED6309 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				927C394B1B923C8600ED6309 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		927C39641B923C8600ED6309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		927C39651B923C8600ED6309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		927C39671B923C8600ED6309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Wheel Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Wheel-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		927C39681B923C8600ED6309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Wheel Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Wheel-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		927C396A1B923C8600ED6309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wheel ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Wheel-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheel Converter.app/Wheel Converter";
+			};
+			name = Debug;
+		};
+		927C396B1B923C8600ED6309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wheel ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Wheel-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheel Converter.app/Wheel Converter";
+			};
+			name = Release;
+		};
+		927C396D1B923C8600ED6309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wheel ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Wheel-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wheel Converter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		927C396E1B923C8600ED6309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wheel ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Wheel-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wheel Converter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		927C39391B923C8600ED6309 /* Build configuration list for PBXProject "Wheel Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927C39641B923C8600ED6309 /* Debug */,
+				927C39651B923C8600ED6309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927C39661B923C8600ED6309 /* Build configuration list for PBXNativeTarget "Wheel Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927C39671B923C8600ED6309 /* Debug */,
+				927C39681B923C8600ED6309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		927C39691B923C8600ED6309 /* Build configuration list for PBXNativeTarget "Wheel ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927C396A1B923C8600ED6309 /* Debug */,
+				927C396B1B923C8600ED6309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		927C396C1B923C8600ED6309 /* Build configuration list for PBXNativeTarget "Wheel ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927C396D1B923C8600ED6309 /* Debug */,
+				927C396E1B923C8600ED6309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 927C39361B923C8600ED6309 /* Project object */;
+}

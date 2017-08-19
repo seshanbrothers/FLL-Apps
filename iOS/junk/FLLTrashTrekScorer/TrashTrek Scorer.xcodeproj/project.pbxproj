@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		922E686F1B8EAA29000E94F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E686E1B8EAA29000E94F4 /* AppDelegate.swift */; };
+		922E68711B8EAA29000E94F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E68701B8EAA29000E94F4 /* ViewController.swift */; };
+		922E68741B8EAA29000E94F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922E68721B8EAA29000E94F4 /* Main.storyboard */; };
+		922E68761B8EAA29000E94F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922E68751B8EAA29000E94F4 /* Images.xcassets */; };
+		922E68791B8EAA29000E94F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922E68771B8EAA29000E94F4 /* LaunchScreen.xib */; };
+		922E68851B8EAA29000E94F4 /* TrashTrek_ScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E68841B8EAA29000E94F4 /* TrashTrek_ScorerTests.swift */; };
+		92AF4D571B9112AB007757F8 /* audio_file.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D411B9112AB007757F8 /* audio_file.mp3 */; };
+		92AF4D581B9112AB007757F8 /* countdowb.html in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D421B9112AB007757F8 /* countdowb.html */; };
+		92AF4D591B9112AB007757F8 /* countdown.html in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D431B9112AB007757F8 /* countdown.html */; };
+		92AF4D5A1B9112AB007757F8 /* countup.html in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D441B9112AB007757F8 /* countup.html */; };
+		92AF4D5B1B9112AB007757F8 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D451B9112AB007757F8 /* css */; };
+		92AF4D5D1B9112AB007757F8 /* ev3lessons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D471B9112AB007757F8 /* ev3lessons.jpg */; };
+		92AF4D5F1B9112AB007757F8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D491B9112AB007757F8 /* images */; };
+		92AF4D601B9112AB007757F8 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D4A1B9112AB007757F8 /* img */; };
+		92AF4D611B9112AB007757F8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D4B1B9112AB007757F8 /* index.html */; };
+		92AF4D621B9112AB007757F8 /* jquery-1.11.3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D4C1B9112AB007757F8 /* jquery-1.11.3.min.js */; };
+		92AF4D631B9112AB007757F8 /* jquery.mobile-1.4.5.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D4D1B9112AB007757F8 /* jquery.mobile-1.4.5.min.css */; };
+		92AF4D641B9112AB007757F8 /* jquery.mobile-1.4.5.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D4E1B9112AB007757F8 /* jquery.mobile-1.4.5.min.js */; };
+		92AF4D651B9112AB007757F8 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D4F1B9112AB007757F8 /* js */; };
+		92AF4D661B9112AB007757F8 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D501B9112AB007757F8 /* lib */; };
+		92AF4D671B9112AB007757F8 /* missions in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D511B9112AB007757F8 /* missions */; };
+		92AF4D681B9112AB007757F8 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D521B9112AB007757F8 /* style.css */; };
+		92AF4D691B9112AB007757F8 /* templates in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D531B9112AB007757F8 /* templates */; };
+		92AF4D6A1B9112AB007757F8 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D541B9112AB007757F8 /* test.html */; };
+		92AF4D6B1B9112AB007757F8 /* Trek-Trek-logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D551B9112AB007757F8 /* Trek-Trek-logo copy.png */; };
+		92AF4D6C1B9112AB007757F8 /* Trek-Trek-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4D561B9112AB007757F8 /* Trek-Trek-logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		922E687F1B8EAA29000E94F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 922E68611B8EAA29000E94F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 922E68681B8EAA29000E94F4;
+			remoteInfo = "TrashTrek Scorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		922E68691B8EAA29000E94F4 /* TrashTrek Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrashTrek Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		922E686D1B8EAA29000E94F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922E686E1B8EAA29000E94F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		922E68701B8EAA29000E94F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		922E68731B8EAA29000E94F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		922E68751B8EAA29000E94F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		922E68781B8EAA29000E94F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		922E687E1B8EAA29000E94F4 /* TrashTrek ScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TrashTrek ScorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		922E68831B8EAA29000E94F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922E68841B8EAA29000E94F4 /* TrashTrek_ScorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTrek_ScorerTests.swift; sourceTree = "<group>"; };
+		92AF4D411B9112AB007757F8 /* audio_file.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = audio_file.mp3; path = www/audio_file.mp3; sourceTree = "<group>"; };
+		92AF4D421B9112AB007757F8 /* countdowb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = countdowb.html; path = www/countdowb.html; sourceTree = "<group>"; };
+		92AF4D431B9112AB007757F8 /* countdown.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = countdown.html; path = www/countdown.html; sourceTree = "<group>"; };
+		92AF4D441B9112AB007757F8 /* countup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = countup.html; path = www/countup.html; sourceTree = "<group>"; };
+		92AF4D451B9112AB007757F8 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = www/css; sourceTree = "<group>"; };
+		92AF4D471B9112AB007757F8 /* ev3lessons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ev3lessons.jpg; path = www/ev3lessons.jpg; sourceTree = "<group>"; };
+		92AF4D491B9112AB007757F8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = www/images; sourceTree = "<group>"; };
+		92AF4D4A1B9112AB007757F8 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = www/img; sourceTree = "<group>"; };
+		92AF4D4B1B9112AB007757F8 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = www/index.html; sourceTree = "<group>"; };
+		92AF4D4C1B9112AB007757F8 /* jquery-1.11.3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.11.3.min.js"; path = "www/jquery-1.11.3.min.js"; sourceTree = "<group>"; };
+		92AF4D4D1B9112AB007757F8 /* jquery.mobile-1.4.5.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = "jquery.mobile-1.4.5.min.css"; path = "www/jquery.mobile-1.4.5.min.css"; sourceTree = "<group>"; };
+		92AF4D4E1B9112AB007757F8 /* jquery.mobile-1.4.5.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery.mobile-1.4.5.min.js"; path = "www/jquery.mobile-1.4.5.min.js"; sourceTree = "<group>"; };
+		92AF4D4F1B9112AB007757F8 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = www/js; sourceTree = "<group>"; };
+		92AF4D501B9112AB007757F8 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = www/lib; sourceTree = "<group>"; };
+		92AF4D511B9112AB007757F8 /* missions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = missions; path = www/missions; sourceTree = "<group>"; };
+		92AF4D521B9112AB007757F8 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = www/style.css; sourceTree = "<group>"; };
+		92AF4D531B9112AB007757F8 /* templates */ = {isa = PBXFileReference; lastKnownFileType = folder; name = templates; path = www/templates; sourceTree = "<group>"; };
+		92AF4D541B9112AB007757F8 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = test.html; path = www/test.html; sourceTree = "<group>"; };
+		92AF4D551B9112AB007757F8 /* Trek-Trek-logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Trek-Trek-logo copy.png"; path = "www/Trek-Trek-logo copy.png"; sourceTree = "<group>"; };
+		92AF4D561B9112AB007757F8 /* Trek-Trek-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Trek-Trek-logo.png"; path = "www/Trek-Trek-logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		922E68661B8EAA29000E94F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922E687B1B8EAA29000E94F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		922E68601B8EAA29000E94F4 = {
+			isa = PBXGroup;
+			children = (
+				922E686B1B8EAA29000E94F4 /* TrashTrek Scorer */,
+				922E68811B8EAA29000E94F4 /* TrashTrek ScorerTests */,
+				922E686A1B8EAA29000E94F4 /* Products */,
+				92AF4D411B9112AB007757F8 /* audio_file.mp3 */,
+				92AF4D421B9112AB007757F8 /* countdowb.html */,
+				92AF4D431B9112AB007757F8 /* countdown.html */,
+				92AF4D441B9112AB007757F8 /* countup.html */,
+				92AF4D451B9112AB007757F8 /* css */,
+				92AF4D471B9112AB007757F8 /* ev3lessons.jpg */,
+				92AF4D491B9112AB007757F8 /* images */,
+				92AF4D4A1B9112AB007757F8 /* img */,
+				92AF4D4B1B9112AB007757F8 /* index.html */,
+				92AF4D4C1B9112AB007757F8 /* jquery-1.11.3.min.js */,
+				92AF4D4D1B9112AB007757F8 /* jquery.mobile-1.4.5.min.css */,
+				92AF4D4E1B9112AB007757F8 /* jquery.mobile-1.4.5.min.js */,
+				92AF4D4F1B9112AB007757F8 /* js */,
+				92AF4D501B9112AB007757F8 /* lib */,
+				92AF4D511B9112AB007757F8 /* missions */,
+				92AF4D521B9112AB007757F8 /* style.css */,
+				92AF4D531B9112AB007757F8 /* templates */,
+				92AF4D541B9112AB007757F8 /* test.html */,
+				92AF4D551B9112AB007757F8 /* Trek-Trek-logo copy.png */,
+				92AF4D561B9112AB007757F8 /* Trek-Trek-logo.png */,
+			);
+			sourceTree = "<group>";
+		};
+		922E686A1B8EAA29000E94F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				922E68691B8EAA29000E94F4 /* TrashTrek Scorer.app */,
+				922E687E1B8EAA29000E94F4 /* TrashTrek ScorerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		922E686B1B8EAA29000E94F4 /* TrashTrek Scorer */ = {
+			isa = PBXGroup;
+			children = (
+				922E686E1B8EAA29000E94F4 /* AppDelegate.swift */,
+				922E68701B8EAA29000E94F4 /* ViewController.swift */,
+				922E68751B8EAA29000E94F4 /* Images.xcassets */,
+				922E68721B8EAA29000E94F4 /* Main.storyboard */,
+				922E68771B8EAA29000E94F4 /* LaunchScreen.xib */,
+				922E686C1B8EAA29000E94F4 /* Supporting Files */,
+			);
+			path = "TrashTrek Scorer";
+			sourceTree = "<group>";
+		};
+		922E686C1B8EAA29000E94F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				922E686D1B8EAA29000E94F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		922E68811B8EAA29000E94F4 /* TrashTrek ScorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				922E68841B8EAA29000E94F4 /* TrashTrek_ScorerTests.swift */,
+				922E68821B8EAA29000E94F4 /* Supporting Files */,
+			);
+			path = "TrashTrek ScorerTests";
+			sourceTree = "<group>";
+		};
+		922E68821B8EAA29000E94F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				922E68831B8EAA29000E94F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		922E68681B8EAA29000E94F4 /* TrashTrek Scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922E68881B8EAA29000E94F4 /* Build configuration list for PBXNativeTarget "TrashTrek Scorer" */;
+			buildPhases = (
+				922E68651B8EAA29000E94F4 /* Sources */,
+				922E68661B8EAA29000E94F4 /* Frameworks */,
+				922E68671B8EAA29000E94F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrashTrek Scorer";
+			productName = "TrashTrek Scorer";
+			productReference = 922E68691B8EAA29000E94F4 /* TrashTrek Scorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		922E687D1B8EAA29000E94F4 /* TrashTrek ScorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922E688B1B8EAA29000E94F4 /* Build configuration list for PBXNativeTarget "TrashTrek ScorerTests" */;
+			buildPhases = (
+				922E687A1B8EAA29000E94F4 /* Sources */,
+				922E687B1B8EAA29000E94F4 /* Frameworks */,
+				922E687C1B8EAA29000E94F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				922E68801B8EAA29000E94F4 /* PBXTargetDependency */,
+			);
+			name = "TrashTrek ScorerTests";
+			productName = "TrashTrek ScorerTests";
+			productReference = 922E687E1B8EAA29000E94F4 /* TrashTrek ScorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		922E68611B8EAA29000E94F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = EV3Lessons.com;
+				TargetAttributes = {
+					922E68681B8EAA29000E94F4 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = YNNP28TXVG;
+					};
+					922E687D1B8EAA29000E94F4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 922E68681B8EAA29000E94F4;
+					};
+				};
+			};
+			buildConfigurationList = 922E68641B8EAA29000E94F4 /* Build configuration list for PBXProject "TrashTrek Scorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 922E68601B8EAA29000E94F4;
+			productRefGroup = 922E686A1B8EAA29000E94F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				922E68681B8EAA29000E94F4 /* TrashTrek Scorer */,
+				922E687D1B8EAA29000E94F4 /* TrashTrek ScorerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		922E68671B8EAA29000E94F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF4D5F1B9112AB007757F8 /* images in Resources */,
+				92AF4D671B9112AB007757F8 /* missions in Resources */,
+				92AF4D651B9112AB007757F8 /* js in Resources */,
+				92AF4D601B9112AB007757F8 /* img in Resources */,
+				92AF4D5A1B9112AB007757F8 /* countup.html in Resources */,
+				92AF4D591B9112AB007757F8 /* countdown.html in Resources */,
+				922E68741B8EAA29000E94F4 /* Main.storyboard in Resources */,
+				92AF4D571B9112AB007757F8 /* audio_file.mp3 in Resources */,
+				92AF4D5B1B9112AB007757F8 /* css in Resources */,
+				92AF4D611B9112AB007757F8 /* index.html in Resources */,
+				92AF4D5D1B9112AB007757F8 /* ev3lessons.jpg in Resources */,
+				92AF4D6C1B9112AB007757F8 /* Trek-Trek-logo.png in Resources */,
+				92AF4D641B9112AB007757F8 /* jquery.mobile-1.4.5.min.js in Resources */,
+				92AF4D661B9112AB007757F8 /* lib in Resources */,
+				922E68791B8EAA29000E94F4 /* LaunchScreen.xib in Resources */,
+				92AF4D6A1B9112AB007757F8 /* test.html in Resources */,
+				92AF4D681B9112AB007757F8 /* style.css in Resources */,
+				922E68761B8EAA29000E94F4 /* Images.xcassets in Resources */,
+				92AF4D631B9112AB007757F8 /* jquery.mobile-1.4.5.min.css in Resources */,
+				92AF4D6B1B9112AB007757F8 /* Trek-Trek-logo copy.png in Resources */,
+				92AF4D621B9112AB007757F8 /* jquery-1.11.3.min.js in Resources */,
+				92AF4D691B9112AB007757F8 /* templates in Resources */,
+				92AF4D581B9112AB007757F8 /* countdowb.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922E687C1B8EAA29000E94F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		922E68651B8EAA29000E94F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922E68711B8EAA29000E94F4 /* ViewController.swift in Sources */,
+				922E686F1B8EAA29000E94F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922E687A1B8EAA29000E94F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922E68851B8EAA29000E94F4 /* TrashTrek_ScorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		922E68801B8EAA29000E94F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 922E68681B8EAA29000E94F4 /* TrashTrek Scorer */;
+			targetProxy = 922E687F1B8EAA29000E94F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		922E68721B8EAA29000E94F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				922E68731B8EAA29000E94F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		922E68771B8EAA29000E94F4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				922E68781B8EAA29000E94F4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		922E68861B8EAA29000E94F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		922E68871B8EAA29000E94F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		922E68891B8EAA29000E94F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TrashTrek Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		922E688A1B8EAA29000E94F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TrashTrek Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		922E688C1B8EAA29000E94F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TrashTrek ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrashTrek Scorer.app/TrashTrek Scorer";
+			};
+			name = Debug;
+		};
+		922E688D1B8EAA29000E94F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TrashTrek ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrashTrek Scorer.app/TrashTrek Scorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		922E68641B8EAA29000E94F4 /* Build configuration list for PBXProject "TrashTrek Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922E68861B8EAA29000E94F4 /* Debug */,
+				922E68871B8EAA29000E94F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		922E68881B8EAA29000E94F4 /* Build configuration list for PBXNativeTarget "TrashTrek Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922E68891B8EAA29000E94F4 /* Debug */,
+				922E688A1B8EAA29000E94F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		922E688B1B8EAA29000E94F4 /* Build configuration list for PBXNativeTarget "TrashTrek ScorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922E688C1B8EAA29000E94F4 /* Debug */,
+				922E688D1B8EAA29000E94F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 922E68611B8EAA29000E94F4 /* Project object */;
+}

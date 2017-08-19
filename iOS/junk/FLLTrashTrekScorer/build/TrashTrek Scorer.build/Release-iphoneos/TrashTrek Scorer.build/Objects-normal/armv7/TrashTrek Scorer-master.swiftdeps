@@ -1,0 +1,5 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "b65e126d7482c901ea7abc1454506617"
+inputs: 
+- "/Users/sanjay/GitHub/Apps/iOS/TrashTrek Scorer/TrashTrek Scorer/ViewController.swift"
+- "/Users/sanjay/GitHub/Apps/iOS/TrashTrek Scorer/TrashTrek Scorer/AppDelegate.swift"

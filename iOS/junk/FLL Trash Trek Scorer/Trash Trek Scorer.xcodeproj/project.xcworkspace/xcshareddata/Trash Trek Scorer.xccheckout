@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5B75CF78-90CA-455D-874E-92983FA88BAD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Trash Trek Scorer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9788B9E1C2C9B4EF18374DB0E8F18CEDD3722F48</key>
+		<string>https://github.com/droidsrobotics/Apps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/O-C/FLL Trash Trek Scorer/Trash Trek Scorer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9788B9E1C2C9B4EF18374DB0E8F18CEDD3722F48</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/droidsrobotics/Apps.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9788B9E1C2C9B4EF18374DB0E8F18CEDD3722F48</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9788B9E1C2C9B4EF18374DB0E8F18CEDD3722F48</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Apps</string>
+		</dict>
+	</array>
+</dict>
+</plist>

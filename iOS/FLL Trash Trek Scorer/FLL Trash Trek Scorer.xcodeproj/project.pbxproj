@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		928F3A921BADD84900072EA9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 928F3A911BADD84900072EA9 /* Default-568h@2x.png */; };
+		92A6AABF1B968CC7000D015F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A6AABE1B968CC7000D015F /* main.m */; };
+		92A6AAC21B968CC7000D015F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A6AAC11B968CC7000D015F /* AppDelegate.m */; };
+		92A6AAC51B968CC7000D015F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A6AAC41B968CC7000D015F /* ViewController.m */; };
+		92A6AAC81B968CC7000D015F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A6AAC61B968CC7000D015F /* Main.storyboard */; };
+		92A6AACA1B968CC7000D015F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A6AAC91B968CC7000D015F /* Images.xcassets */; };
+		92A6AACD1B968CC7000D015F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92A6AACB1B968CC7000D015F /* LaunchScreen.xib */; };
+		92A6AAD91B968CC7000D015F /* FLL_Trash_Trek_ScorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A6AAD81B968CC7000D015F /* FLL_Trash_Trek_ScorerTests.m */; };
+		92F2B8611BDD6605008107C7 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 92F2B8601BDD6605008107C7 /* www */; };
+		92F2B8651BDD69E2008107C7 /* wwwpt in Resources */ = {isa = PBXBuildFile; fileRef = 92F2B8641BDD69E2008107C7 /* wwwpt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92A6AAD31B968CC7000D015F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A6AAB11B968CC7000D015F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A6AAB81B968CC7000D015F;
+			remoteInfo = "FLL Trash Trek Scorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		928F3A911BADD84900072EA9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		92A6AAB91B968CC7000D015F /* FLL Trash Trek Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLL Trash Trek Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A6AABD1B968CC7000D015F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A6AABE1B968CC7000D015F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92A6AAC01B968CC7000D015F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92A6AAC11B968CC7000D015F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92A6AAC31B968CC7000D015F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92A6AAC41B968CC7000D015F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92A6AAC71B968CC7000D015F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92A6AAC91B968CC7000D015F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92A6AACC1B968CC7000D015F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		92A6AAD21B968CC7000D015F /* FLL Trash Trek ScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL Trash Trek ScorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A6AAD71B968CC7000D015F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A6AAD81B968CC7000D015F /* FLL_Trash_Trek_ScorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLL_Trash_Trek_ScorerTests.m; sourceTree = "<group>"; };
+		92F2B8601BDD6605008107C7 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		92F2B8621BDD681C008107C7 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "pt-BR"; path = "pt-BR.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		92F2B8631BDD681C008107C7 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.xib"; sourceTree = "<group>"; };
+		92F2B8641BDD69E2008107C7 /* wwwpt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = wwwpt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92A6AAB61B968CC7000D015F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A6AACF1B968CC7000D015F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A6AAB01B968CC7000D015F = {
+			isa = PBXGroup;
+			children = (
+				92F2B8641BDD69E2008107C7 /* wwwpt */,
+				92F2B8601BDD6605008107C7 /* www */,
+				928F3A911BADD84900072EA9 /* Default-568h@2x.png */,
+				92A6AABB1B968CC7000D015F /* FLL Trash Trek Scorer */,
+				92A6AAD51B968CC7000D015F /* FLL Trash Trek ScorerTests */,
+				92A6AABA1B968CC7000D015F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92A6AABA1B968CC7000D015F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92A6AAB91B968CC7000D015F /* FLL Trash Trek Scorer.app */,
+				92A6AAD21B968CC7000D015F /* FLL Trash Trek ScorerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A6AABB1B968CC7000D015F /* FLL Trash Trek Scorer */ = {
+			isa = PBXGroup;
+			children = (
+				92A6AAC01B968CC7000D015F /* AppDelegate.h */,
+				92A6AAC11B968CC7000D015F /* AppDelegate.m */,
+				92A6AAC31B968CC7000D015F /* ViewController.h */,
+				92A6AAC41B968CC7000D015F /* ViewController.m */,
+				92A6AAC61B968CC7000D015F /* Main.storyboard */,
+				92A6AAC91B968CC7000D015F /* Images.xcassets */,
+				92A6AACB1B968CC7000D015F /* LaunchScreen.xib */,
+				92A6AABC1B968CC7000D015F /* Supporting Files */,
+			);
+			path = "FLL Trash Trek Scorer";
+			sourceTree = "<group>";
+		};
+		92A6AABC1B968CC7000D015F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92A6AABD1B968CC7000D015F /* Info.plist */,
+				92A6AABE1B968CC7000D015F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92A6AAD51B968CC7000D015F /* FLL Trash Trek ScorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				92A6AAD81B968CC7000D015F /* FLL_Trash_Trek_ScorerTests.m */,
+				92A6AAD61B968CC7000D015F /* Supporting Files */,
+			);
+			path = "FLL Trash Trek ScorerTests";
+			sourceTree = "<group>";
+		};
+		92A6AAD61B968CC7000D015F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92A6AAD71B968CC7000D015F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92A6AAB81B968CC7000D015F /* FLL Trash Trek Scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A6AADC1B968CC7000D015F /* Build configuration list for PBXNativeTarget "FLL Trash Trek Scorer" */;
+			buildPhases = (
+				92A6AAB51B968CC7000D015F /* Sources */,
+				92A6AAB61B968CC7000D015F /* Frameworks */,
+				92A6AAB71B968CC7000D015F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLL Trash Trek Scorer";
+			productName = "FLL Trash Trek Scorer";
+			productReference = 92A6AAB91B968CC7000D015F /* FLL Trash Trek Scorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92A6AAD11B968CC7000D015F /* FLL Trash Trek ScorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A6AADF1B968CC7000D015F /* Build configuration list for PBXNativeTarget "FLL Trash Trek ScorerTests" */;
+			buildPhases = (
+				92A6AACE1B968CC7000D015F /* Sources */,
+				92A6AACF1B968CC7000D015F /* Frameworks */,
+				92A6AAD01B968CC7000D015F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A6AAD41B968CC7000D015F /* PBXTargetDependency */,
+			);
+			name = "FLL Trash Trek ScorerTests";
+			productName = "FLL Trash Trek ScorerTests";
+			productReference = 92A6AAD21B968CC7000D015F /* FLL Trash Trek ScorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92A6AAB11B968CC7000D015F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+					"New-1",
+				);
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EV3Lessons.com;
+				TargetAttributes = {
+					92A6AAB81B968CC7000D015F = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = YNNP28TXVG;
+					};
+					92A6AAD11B968CC7000D015F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 92A6AAB81B968CC7000D015F;
+					};
+				};
+			};
+			buildConfigurationList = 92A6AAB41B968CC7000D015F /* Build configuration list for PBXProject "FLL Trash Trek Scorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = 92A6AAB01B968CC7000D015F;
+			productRefGroup = 92A6AABA1B968CC7000D015F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92A6AAB81B968CC7000D015F /* FLL Trash Trek Scorer */,
+				92A6AAD11B968CC7000D015F /* FLL Trash Trek ScorerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92A6AAB71B968CC7000D015F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F2B8651BDD69E2008107C7 /* wwwpt in Resources */,
+				928F3A921BADD84900072EA9 /* Default-568h@2x.png in Resources */,
+				92A6AAC81B968CC7000D015F /* Main.storyboard in Resources */,
+				92A6AACD1B968CC7000D015F /* LaunchScreen.xib in Resources */,
+				92F2B8611BDD6605008107C7 /* www in Resources */,
+				92A6AACA1B968CC7000D015F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A6AAD01B968CC7000D015F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A6AAB51B968CC7000D015F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A6AAC51B968CC7000D015F /* ViewController.m in Sources */,
+				92A6AAC21B968CC7000D015F /* AppDelegate.m in Sources */,
+				92A6AABF1B968CC7000D015F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A6AACE1B968CC7000D015F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A6AAD91B968CC7000D015F /* FLL_Trash_Trek_ScorerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92A6AAD41B968CC7000D015F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A6AAB81B968CC7000D015F /* FLL Trash Trek Scorer */;
+			targetProxy = 92A6AAD31B968CC7000D015F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92A6AAC61B968CC7000D015F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A6AAC71B968CC7000D015F /* Base */,
+				92F2B8621BDD681C008107C7 /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92A6AACB1B968CC7000D015F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A6AACC1B968CC7000D015F /* Base */,
+				92F2B8631BDD681C008107C7 /* pt-BR */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92A6AADA1B968CC7000D015F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92A6AADB1B968CC7000D015F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92A6AADD1B968CC7000D015F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "FLL Trash Trek Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		92A6AADE1B968CC7000D015F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "FLL Trash Trek Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		92A6AAE01B968CC7000D015F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FLL Trash Trek ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL Trash Trek Scorer.app/FLL Trash Trek Scorer";
+			};
+			name = Debug;
+		};
+		92A6AAE11B968CC7000D015F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FLL Trash Trek ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL Trash Trek Scorer.app/FLL Trash Trek Scorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92A6AAB41B968CC7000D015F /* Build configuration list for PBXProject "FLL Trash Trek Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A6AADA1B968CC7000D015F /* Debug */,
+				92A6AADB1B968CC7000D015F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A6AADC1B968CC7000D015F /* Build configuration list for PBXNativeTarget "FLL Trash Trek Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A6AADD1B968CC7000D015F /* Debug */,
+				92A6AADE1B968CC7000D015F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A6AADF1B968CC7000D015F /* Build configuration list for PBXNativeTarget "FLL Trash Trek ScorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A6AAE01B968CC7000D015F /* Debug */,
+				92A6AAE11B968CC7000D015F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92A6AAB11B968CC7000D015F /* Project object */;
+}

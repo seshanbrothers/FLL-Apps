@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>YNNP28TXVG.com.ev3lessons.TrashTrek-Scorer</string>
+	<key>com.apple.developer.team-identifier</key>
+	<string>YNNP28TXVG</string>
+	<key>get-task-allow</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>YNNP28TXVG.com.ev3lessons.TrashTrek-Scorer</string>
+	</array>
+</dict>
+</plist>

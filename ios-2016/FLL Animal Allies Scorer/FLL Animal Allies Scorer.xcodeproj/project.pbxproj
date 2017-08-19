@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921985071D7DF85E00737FA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 921985061D7DF85E00737FA9 /* main.m */; };
+		9219850A1D7DF85E00737FA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 921985091D7DF85E00737FA9 /* AppDelegate.m */; };
+		9219850D1D7DF85E00737FA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9219850C1D7DF85E00737FA9 /* ViewController.m */; };
+		921985101D7DF85E00737FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9219850E1D7DF85E00737FA9 /* Main.storyboard */; };
+		921985121D7DF85E00737FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921985111D7DF85E00737FA9 /* Assets.xcassets */; };
+		921985151D7DF85E00737FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921985131D7DF85E00737FA9 /* LaunchScreen.storyboard */; };
+		921985201D7DF85E00737FA9 /* FLL_Animal_Allies_ScorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9219851F1D7DF85E00737FA9 /* FLL_Animal_Allies_ScorerTests.m */; };
+		9219852B1D7DF85E00737FA9 /* FLL_Animal_Allies_ScorerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9219852A1D7DF85E00737FA9 /* FLL_Animal_Allies_ScorerUITests.m */; };
+		921985391D7E017400737FA9 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 921985381D7E017400737FA9 /* www */; };
+		9219853B1D7E184900737FA9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9219853A1D7E184900737FA9 /* Default-568h@2x.png */; };
+		92DA62041D82359500F2C3B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92DA62061D82359500F2C3B7 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9219851C1D7DF85E00737FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921984FA1D7DF85E00737FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921985011D7DF85E00737FA9;
+			remoteInfo = "FLL Animal Allies Scorer";
+		};
+		921985271D7DF85E00737FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921984FA1D7DF85E00737FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921985011D7DF85E00737FA9;
+			remoteInfo = "FLL Animal Allies Scorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		921985021D7DF85E00737FA9 /* FLL Animal Allies Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLL Animal Allies Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		921985061D7DF85E00737FA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		921985081D7DF85E00737FA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		921985091D7DF85E00737FA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9219850B1D7DF85E00737FA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9219850C1D7DF85E00737FA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9219850F1D7DF85E00737FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		921985111D7DF85E00737FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		921985141D7DF85E00737FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		921985161D7DF85E00737FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9219851B1D7DF85E00737FA9 /* FLL Animal Allies ScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL Animal Allies ScorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9219851F1D7DF85E00737FA9 /* FLL_Animal_Allies_ScorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLL_Animal_Allies_ScorerTests.m; sourceTree = "<group>"; };
+		921985211D7DF85E00737FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921985261D7DF85E00737FA9 /* FLL Animal Allies ScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL Animal Allies ScorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9219852A1D7DF85E00737FA9 /* FLL_Animal_Allies_ScorerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLL_Animal_Allies_ScorerUITests.m; sourceTree = "<group>"; };
+		9219852C1D7DF85E00737FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921985381D7E017400737FA9 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = "FLL Animal Allies Scorer/www"; sourceTree = "<group>"; };
+		9219853A1D7E184900737FA9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9299540D1D82369600161216 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9299540E1D82371C00161216 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9299540F1D82372D00161216 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		929954101D82373700161216 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		92DA62051D82359500F2C3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92DA62071D82359C00F2C3B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92DA620B1D8235E900F2C3B7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921984FF1D7DF85E00737FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921985181D7DF85E00737FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921985231D7DF85E00737FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921984F91D7DF85E00737FA9 = {
+			isa = PBXGroup;
+			children = (
+				9219853A1D7E184900737FA9 /* Default-568h@2x.png */,
+				921985381D7E017400737FA9 /* www */,
+				921985041D7DF85E00737FA9 /* FLL Animal Allies Scorer */,
+				9219851E1D7DF85E00737FA9 /* FLL Animal Allies ScorerTests */,
+				921985291D7DF85E00737FA9 /* FLL Animal Allies ScorerUITests */,
+				921985031D7DF85E00737FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		921985031D7DF85E00737FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921985021D7DF85E00737FA9 /* FLL Animal Allies Scorer.app */,
+				9219851B1D7DF85E00737FA9 /* FLL Animal Allies ScorerTests.xctest */,
+				921985261D7DF85E00737FA9 /* FLL Animal Allies ScorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		921985041D7DF85E00737FA9 /* FLL Animal Allies Scorer */ = {
+			isa = PBXGroup;
+			children = (
+				92DA62061D82359500F2C3B7 /* InfoPlist.strings */,
+				921985081D7DF85E00737FA9 /* AppDelegate.h */,
+				921985091D7DF85E00737FA9 /* AppDelegate.m */,
+				9219850B1D7DF85E00737FA9 /* ViewController.h */,
+				9219850C1D7DF85E00737FA9 /* ViewController.m */,
+				9219850E1D7DF85E00737FA9 /* Main.storyboard */,
+				921985111D7DF85E00737FA9 /* Assets.xcassets */,
+				921985131D7DF85E00737FA9 /* LaunchScreen.storyboard */,
+				921985161D7DF85E00737FA9 /* Info.plist */,
+				921985051D7DF85E00737FA9 /* Supporting Files */,
+			);
+			path = "FLL Animal Allies Scorer";
+			sourceTree = "<group>";
+		};
+		921985051D7DF85E00737FA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				921985061D7DF85E00737FA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9219851E1D7DF85E00737FA9 /* FLL Animal Allies ScorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9219851F1D7DF85E00737FA9 /* FLL_Animal_Allies_ScorerTests.m */,
+				921985211D7DF85E00737FA9 /* Info.plist */,
+			);
+			path = "FLL Animal Allies ScorerTests";
+			sourceTree = "<group>";
+		};
+		921985291D7DF85E00737FA9 /* FLL Animal Allies ScorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9219852A1D7DF85E00737FA9 /* FLL_Animal_Allies_ScorerUITests.m */,
+				9219852C1D7DF85E00737FA9 /* Info.plist */,
+			);
+			path = "FLL Animal Allies ScorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921985011D7DF85E00737FA9 /* FLL Animal Allies Scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9219852F1D7DF85E00737FA9 /* Build configuration list for PBXNativeTarget "FLL Animal Allies Scorer" */;
+			buildPhases = (
+				921984FE1D7DF85E00737FA9 /* Sources */,
+				921984FF1D7DF85E00737FA9 /* Frameworks */,
+				921985001D7DF85E00737FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLL Animal Allies Scorer";
+			productName = "FLL Animal Allies Scorer";
+			productReference = 921985021D7DF85E00737FA9 /* FLL Animal Allies Scorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9219851A1D7DF85E00737FA9 /* FLL Animal Allies ScorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921985321D7DF85E00737FA9 /* Build configuration list for PBXNativeTarget "FLL Animal Allies ScorerTests" */;
+			buildPhases = (
+				921985171D7DF85E00737FA9 /* Sources */,
+				921985181D7DF85E00737FA9 /* Frameworks */,
+				921985191D7DF85E00737FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9219851D1D7DF85E00737FA9 /* PBXTargetDependency */,
+			);
+			name = "FLL Animal Allies ScorerTests";
+			productName = "FLL Animal Allies ScorerTests";
+			productReference = 9219851B1D7DF85E00737FA9 /* FLL Animal Allies ScorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		921985251D7DF85E00737FA9 /* FLL Animal Allies ScorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921985351D7DF85E00737FA9 /* Build configuration list for PBXNativeTarget "FLL Animal Allies ScorerUITests" */;
+			buildPhases = (
+				921985221D7DF85E00737FA9 /* Sources */,
+				921985231D7DF85E00737FA9 /* Frameworks */,
+				921985241D7DF85E00737FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921985281D7DF85E00737FA9 /* PBXTargetDependency */,
+			);
+			name = "FLL Animal Allies ScorerUITests";
+			productName = "FLL Animal Allies ScorerUITests";
+			productReference = 921985261D7DF85E00737FA9 /* FLL Animal Allies ScorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921984FA1D7DF85E00737FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = EV3Lessons;
+				TargetAttributes = {
+					921985011D7DF85E00737FA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YNNP28TXVG;
+						ProvisioningStyle = Automatic;
+					};
+					9219851A1D7DF85E00737FA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 921985011D7DF85E00737FA9;
+					};
+					921985251D7DF85E00737FA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 921985011D7DF85E00737FA9;
+					};
+				};
+			};
+			buildConfigurationList = 921984FD1D7DF85E00737FA9 /* Build configuration list for PBXProject "FLL Animal Allies Scorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				de,
+				nl,
+				"pt-BR",
+				"pt-PT",
+			);
+			mainGroup = 921984F91D7DF85E00737FA9;
+			productRefGroup = 921985031D7DF85E00737FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921985011D7DF85E00737FA9 /* FLL Animal Allies Scorer */,
+				9219851A1D7DF85E00737FA9 /* FLL Animal Allies ScorerTests */,
+				921985251D7DF85E00737FA9 /* FLL Animal Allies ScorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921985001D7DF85E00737FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921985391D7E017400737FA9 /* www in Resources */,
+				921985151D7DF85E00737FA9 /* LaunchScreen.storyboard in Resources */,
+				92DA62041D82359500F2C3B7 /* InfoPlist.strings in Resources */,
+				921985121D7DF85E00737FA9 /* Assets.xcassets in Resources */,
+				9219853B1D7E184900737FA9 /* Default-568h@2x.png in Resources */,
+				921985101D7DF85E00737FA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921985191D7DF85E00737FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921985241D7DF85E00737FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921984FE1D7DF85E00737FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9219850D1D7DF85E00737FA9 /* ViewController.m in Sources */,
+				9219850A1D7DF85E00737FA9 /* AppDelegate.m in Sources */,
+				921985071D7DF85E00737FA9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921985171D7DF85E00737FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921985201D7DF85E00737FA9 /* FLL_Animal_Allies_ScorerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921985221D7DF85E00737FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9219852B1D7DF85E00737FA9 /* FLL_Animal_Allies_ScorerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9219851D1D7DF85E00737FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921985011D7DF85E00737FA9 /* FLL Animal Allies Scorer */;
+			targetProxy = 9219851C1D7DF85E00737FA9 /* PBXContainerItemProxy */;
+		};
+		921985281D7DF85E00737FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921985011D7DF85E00737FA9 /* FLL Animal Allies Scorer */;
+			targetProxy = 921985271D7DF85E00737FA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9219850E1D7DF85E00737FA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9219850F1D7DF85E00737FA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		921985131D7DF85E00737FA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921985141D7DF85E00737FA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		92DA62061D82359500F2C3B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DA62051D82359500F2C3B7 /* Base */,
+				92DA62071D82359C00F2C3B7 /* en */,
+				92DA620B1D8235E900F2C3B7 /* es */,
+				9299540D1D82369600161216 /* de */,
+				9299540E1D82371C00161216 /* nl */,
+				9299540F1D82372D00161216 /* pt-BR */,
+				929954101D82373700161216 /* pt-PT */,
+			);
+			name = InfoPlist.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9219852D1D7DF85E00737FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9219852E1D7DF85E00737FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		921985301D7DF85E00737FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer: droids.robotics@gmail.com (5RPAH55MB9)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: droids.robotics@gmail.com (5RPAH55MB9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "FLL Animal Allies Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Animal-Allies-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		921985311D7DF85E00737FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer: droids.robotics@gmail.com (5RPAH55MB9)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: droids.robotics@gmail.com (5RPAH55MB9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "FLL Animal Allies Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Animal-Allies-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		921985331D7DF85E00737FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FLL Animal Allies ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Animal-Allies-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL Animal Allies Scorer.app/FLL Animal Allies Scorer";
+			};
+			name = Debug;
+		};
+		921985341D7DF85E00737FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FLL Animal Allies ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Animal-Allies-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL Animal Allies Scorer.app/FLL Animal Allies Scorer";
+			};
+			name = Release;
+		};
+		921985361D7DF85E00737FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FLL Animal Allies ScorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Animal-Allies-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FLL Animal Allies Scorer";
+			};
+			name = Debug;
+		};
+		921985371D7DF85E00737FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FLL Animal Allies ScorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Animal-Allies-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FLL Animal Allies Scorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921984FD1D7DF85E00737FA9 /* Build configuration list for PBXProject "FLL Animal Allies Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9219852D1D7DF85E00737FA9 /* Debug */,
+				9219852E1D7DF85E00737FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9219852F1D7DF85E00737FA9 /* Build configuration list for PBXNativeTarget "FLL Animal Allies Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921985301D7DF85E00737FA9 /* Debug */,
+				921985311D7DF85E00737FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921985321D7DF85E00737FA9 /* Build configuration list for PBXNativeTarget "FLL Animal Allies ScorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921985331D7DF85E00737FA9 /* Debug */,
+				921985341D7DF85E00737FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921985351D7DF85E00737FA9 /* Build configuration list for PBXNativeTarget "FLL Animal Allies ScorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921985361D7DF85E00737FA9 /* Debug */,
+				921985371D7DF85E00737FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921984FA1D7DF85E00737FA9 /* Project object */;
+}

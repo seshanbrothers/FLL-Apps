@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+
+<script>
+var viewportwidth;
+var viewportheight;
+
+// the more standards compliant browsers (mozilla/netscape/opera/IE7) use window.innerWidth and window.innerHeight
+
+if (typeof window.innerWidth != 'undefined')
+{
+    viewportwidth = window.innerWidth,
+    viewportheight = window.innerHeight
+}
+
+
+</script>
+
+</head>
+    <div>
+    <style scoped>
+     h1 em {
+      font-size: 50%;
+      }
+    </style>
+
+ <!--   <h1>Trash Trek Scorer
+      <em> (v2.3 by EV3Lessons/Droids Robotics)-->
+</style>
+</div>
+
+<center>
+	<fieldset>
+		<legend size="10">Score</legend>
+		<input type='text' size='10'  value='96 Points' readonly style="text-align: center; list-style-type: none; background-color: red; color: white; font-size: 150%; border: none;" id="points">
+	</fieldset>
+</center>
+<div>
+	<input type="button" onclick="resetform()" value="Reset Score" style="background-color: red; color: white; text-size: 150%">
+</div>
+
+<div class="missions">
+
+<table style="border: none" border="0">
+  <tr style="vertical-align: top;">
+    <td>
+      <table style="border: 1px solid black; border-collapse: collapse; " border="1">
+	<tr>
+	  <td rowspan="3"> <img src='missions/M01.png' width="80"></td>
+	  <td width="300" style="font-size: 110%; text-align: center; background-color: Blue; color: white;">
+	    M01: Using Recycled Material:
+	    <i style="font-style: normal;" id="M01pts">0</i>  
+	  </td>
+	</tr>
+	<tr>
+	  <td width="200" style="font-size: 100%; background-color: sky;">
+	    Number of Green Bins with matching bars in other team's Safety
+	  </td>
+	</tr>
+	<tr>
+	  <td width="200">
+	    <input type="range" data-show-value="true" name="RecMat" id="RecMat" value="0" min="0" max="4" step="1">
+            <p id="RecMatTxt" style="color: red"></p>
+	  </td>
+	</tr>
+
+</div>
+
+

@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92FBAC551BAF8B1600C843BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBAC541BAF8B1600C843BA /* main.m */; };
+		92FBAC581BAF8B1600C843BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBAC571BAF8B1600C843BA /* AppDelegate.m */; };
+		92FBAC5B1BAF8B1600C843BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBAC5A1BAF8B1600C843BA /* ViewController.m */; };
+		92FBAC5E1BAF8B1600C843BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FBAC5C1BAF8B1600C843BA /* Main.storyboard */; };
+		92FBAC601BAF8B1600C843BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FBAC5F1BAF8B1600C843BA /* Assets.xcassets */; };
+		92FBAC631BAF8B1600C843BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FBAC611BAF8B1600C843BA /* LaunchScreen.storyboard */; };
+		92FBAC6E1BAF8B1600C843BA /* Trash_Trek_Sketch_PlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBAC6D1BAF8B1600C843BA /* Trash_Trek_Sketch_PlannerTests.m */; };
+		92FBAC791BAF8B1600C843BA /* Trash_Trek_Sketch_PlannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBAC781BAF8B1600C843BA /* Trash_Trek_Sketch_PlannerUITests.m */; };
+		92FBAC871BAF8B6F00C843BA /* www in Resources */ = {isa = PBXBuildFile; fileRef = 92FBAC861BAF8B6F00C843BA /* www */; settings = {ASSET_TAGS = (); }; };
+		92FBACCA1BAF91C000C843BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FBACC91BAF91C000C843BA /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92FBAC6A1BAF8B1600C843BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FBAC481BAF8B1600C843BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FBAC4F1BAF8B1600C843BA;
+			remoteInfo = "Trash Trek Sketch Planner";
+		};
+		92FBAC751BAF8B1600C843BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FBAC481BAF8B1600C843BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FBAC4F1BAF8B1600C843BA;
+			remoteInfo = "Trash Trek Sketch Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92FBAC501BAF8B1600C843BA /* Trash Trek Sketch Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trash Trek Sketch Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FBAC541BAF8B1600C843BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92FBAC561BAF8B1600C843BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92FBAC571BAF8B1600C843BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92FBAC591BAF8B1600C843BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92FBAC5A1BAF8B1600C843BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92FBAC5D1BAF8B1600C843BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92FBAC5F1BAF8B1600C843BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92FBAC621BAF8B1600C843BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92FBAC641BAF8B1600C843BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FBAC691BAF8B1600C843BA /* Trash Trek Sketch PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trash Trek Sketch PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FBAC6D1BAF8B1600C843BA /* Trash_Trek_Sketch_PlannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trash_Trek_Sketch_PlannerTests.m; sourceTree = "<group>"; };
+		92FBAC6F1BAF8B1600C843BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FBAC741BAF8B1600C843BA /* Trash Trek Sketch PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trash Trek Sketch PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FBAC781BAF8B1600C843BA /* Trash_Trek_Sketch_PlannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trash_Trek_Sketch_PlannerUITests.m; sourceTree = "<group>"; };
+		92FBAC7A1BAF8B1600C843BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FBAC861BAF8B6F00C843BA /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		92FBACC91BAF91C000C843BA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92FBAC4D1BAF8B1600C843BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBAC661BAF8B1600C843BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBAC711BAF8B1600C843BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92FBAC471BAF8B1600C843BA = {
+			isa = PBXGroup;
+			children = (
+				92FBACC91BAF91C000C843BA /* Default-568h@2x.png */,
+				92FBAC861BAF8B6F00C843BA /* www */,
+				92FBAC521BAF8B1600C843BA /* Trash Trek Sketch Planner */,
+				92FBAC6C1BAF8B1600C843BA /* Trash Trek Sketch PlannerTests */,
+				92FBAC771BAF8B1600C843BA /* Trash Trek Sketch PlannerUITests */,
+				92FBAC511BAF8B1600C843BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92FBAC511BAF8B1600C843BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92FBAC501BAF8B1600C843BA /* Trash Trek Sketch Planner.app */,
+				92FBAC691BAF8B1600C843BA /* Trash Trek Sketch PlannerTests.xctest */,
+				92FBAC741BAF8B1600C843BA /* Trash Trek Sketch PlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92FBAC521BAF8B1600C843BA /* Trash Trek Sketch Planner */ = {
+			isa = PBXGroup;
+			children = (
+				92FBAC561BAF8B1600C843BA /* AppDelegate.h */,
+				92FBAC571BAF8B1600C843BA /* AppDelegate.m */,
+				92FBAC591BAF8B1600C843BA /* ViewController.h */,
+				92FBAC5A1BAF8B1600C843BA /* ViewController.m */,
+				92FBAC5C1BAF8B1600C843BA /* Main.storyboard */,
+				92FBAC5F1BAF8B1600C843BA /* Assets.xcassets */,
+				92FBAC611BAF8B1600C843BA /* LaunchScreen.storyboard */,
+				92FBAC641BAF8B1600C843BA /* Info.plist */,
+				92FBAC531BAF8B1600C843BA /* Supporting Files */,
+			);
+			path = "Trash Trek Sketch Planner";
+			sourceTree = "<group>";
+		};
+		92FBAC531BAF8B1600C843BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92FBAC541BAF8B1600C843BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92FBAC6C1BAF8B1600C843BA /* Trash Trek Sketch PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				92FBAC6D1BAF8B1600C843BA /* Trash_Trek_Sketch_PlannerTests.m */,
+				92FBAC6F1BAF8B1600C843BA /* Info.plist */,
+			);
+			path = "Trash Trek Sketch PlannerTests";
+			sourceTree = "<group>";
+		};
+		92FBAC771BAF8B1600C843BA /* Trash Trek Sketch PlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92FBAC781BAF8B1600C843BA /* Trash_Trek_Sketch_PlannerUITests.m */,
+				92FBAC7A1BAF8B1600C843BA /* Info.plist */,
+			);
+			path = "Trash Trek Sketch PlannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92FBAC4F1BAF8B1600C843BA /* Trash Trek Sketch Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FBAC7D1BAF8B1600C843BA /* Build configuration list for PBXNativeTarget "Trash Trek Sketch Planner" */;
+			buildPhases = (
+				92FBAC4C1BAF8B1600C843BA /* Sources */,
+				92FBAC4D1BAF8B1600C843BA /* Frameworks */,
+				92FBAC4E1BAF8B1600C843BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trash Trek Sketch Planner";
+			productName = "Trash Trek Sketch Planner";
+			productReference = 92FBAC501BAF8B1600C843BA /* Trash Trek Sketch Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92FBAC681BAF8B1600C843BA /* Trash Trek Sketch PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FBAC801BAF8B1600C843BA /* Build configuration list for PBXNativeTarget "Trash Trek Sketch PlannerTests" */;
+			buildPhases = (
+				92FBAC651BAF8B1600C843BA /* Sources */,
+				92FBAC661BAF8B1600C843BA /* Frameworks */,
+				92FBAC671BAF8B1600C843BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FBAC6B1BAF8B1600C843BA /* PBXTargetDependency */,
+			);
+			name = "Trash Trek Sketch PlannerTests";
+			productName = "Trash Trek Sketch PlannerTests";
+			productReference = 92FBAC691BAF8B1600C843BA /* Trash Trek Sketch PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92FBAC731BAF8B1600C843BA /* Trash Trek Sketch PlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FBAC831BAF8B1600C843BA /* Build configuration list for PBXNativeTarget "Trash Trek Sketch PlannerUITests" */;
+			buildPhases = (
+				92FBAC701BAF8B1600C843BA /* Sources */,
+				92FBAC711BAF8B1600C843BA /* Frameworks */,
+				92FBAC721BAF8B1600C843BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FBAC761BAF8B1600C843BA /* PBXTargetDependency */,
+			);
+			name = "Trash Trek Sketch PlannerUITests";
+			productName = "Trash Trek Sketch PlannerUITests";
+			productReference = 92FBAC741BAF8B1600C843BA /* Trash Trek Sketch PlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92FBAC481BAF8B1600C843BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EV3Lessons.com;
+				TargetAttributes = {
+					92FBAC4F1BAF8B1600C843BA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					92FBAC681BAF8B1600C843BA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 92FBAC4F1BAF8B1600C843BA;
+					};
+					92FBAC731BAF8B1600C843BA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 92FBAC4F1BAF8B1600C843BA;
+					};
+				};
+			};
+			buildConfigurationList = 92FBAC4B1BAF8B1600C843BA /* Build configuration list for PBXProject "Trash Trek Sketch Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92FBAC471BAF8B1600C843BA;
+			productRefGroup = 92FBAC511BAF8B1600C843BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92FBAC4F1BAF8B1600C843BA /* Trash Trek Sketch Planner */,
+				92FBAC681BAF8B1600C843BA /* Trash Trek Sketch PlannerTests */,
+				92FBAC731BAF8B1600C843BA /* Trash Trek Sketch PlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92FBAC4E1BAF8B1600C843BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FBAC871BAF8B6F00C843BA /* www in Resources */,
+				92FBAC631BAF8B1600C843BA /* LaunchScreen.storyboard in Resources */,
+				92FBAC601BAF8B1600C843BA /* Assets.xcassets in Resources */,
+				92FBACCA1BAF91C000C843BA /* Default-568h@2x.png in Resources */,
+				92FBAC5E1BAF8B1600C843BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBAC671BAF8B1600C843BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBAC721BAF8B1600C843BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92FBAC4C1BAF8B1600C843BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FBAC5B1BAF8B1600C843BA /* ViewController.m in Sources */,
+				92FBAC581BAF8B1600C843BA /* AppDelegate.m in Sources */,
+				92FBAC551BAF8B1600C843BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBAC651BAF8B1600C843BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FBAC6E1BAF8B1600C843BA /* Trash_Trek_Sketch_PlannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBAC701BAF8B1600C843BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FBAC791BAF8B1600C843BA /* Trash_Trek_Sketch_PlannerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92FBAC6B1BAF8B1600C843BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FBAC4F1BAF8B1600C843BA /* Trash Trek Sketch Planner */;
+			targetProxy = 92FBAC6A1BAF8B1600C843BA /* PBXContainerItemProxy */;
+		};
+		92FBAC761BAF8B1600C843BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FBAC4F1BAF8B1600C843BA /* Trash Trek Sketch Planner */;
+			targetProxy = 92FBAC751BAF8B1600C843BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92FBAC5C1BAF8B1600C843BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FBAC5D1BAF8B1600C843BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92FBAC611BAF8B1600C843BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FBAC621BAF8B1600C843BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92FBAC7B1BAF8B1600C843BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92FBAC7C1BAF8B1600C843BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92FBAC7E1BAF8B1600C843BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Trash Trek Sketch Planner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Trash-Trek-Sketch-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92FBAC7F1BAF8B1600C843BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Trash Trek Sketch Planner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Trash-Trek-Sketch-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92FBAC811BAF8B1600C843BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Trash Trek Sketch PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Trash-Trek-Sketch-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trash Trek Sketch Planner.app/Trash Trek Sketch Planner";
+			};
+			name = Debug;
+		};
+		92FBAC821BAF8B1600C843BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Trash Trek Sketch PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Trash-Trek-Sketch-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trash Trek Sketch Planner.app/Trash Trek Sketch Planner";
+			};
+			name = Release;
+		};
+		92FBAC841BAF8B1600C843BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Trash Trek Sketch PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Trash-Trek-Sketch-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Trash Trek Sketch Planner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		92FBAC851BAF8B1600C843BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Trash Trek Sketch PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Trash-Trek-Sketch-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Trash Trek Sketch Planner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92FBAC4B1BAF8B1600C843BA /* Build configuration list for PBXProject "Trash Trek Sketch Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FBAC7B1BAF8B1600C843BA /* Debug */,
+				92FBAC7C1BAF8B1600C843BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FBAC7D1BAF8B1600C843BA /* Build configuration list for PBXNativeTarget "Trash Trek Sketch Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FBAC7E1BAF8B1600C843BA /* Debug */,
+				92FBAC7F1BAF8B1600C843BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92FBAC801BAF8B1600C843BA /* Build configuration list for PBXNativeTarget "Trash Trek Sketch PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FBAC811BAF8B1600C843BA /* Debug */,
+				92FBAC821BAF8B1600C843BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92FBAC831BAF8B1600C843BA /* Build configuration list for PBXNativeTarget "Trash Trek Sketch PlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FBAC841BAF8B1600C843BA /* Debug */,
+				92FBAC851BAF8B1600C843BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92FBAC481BAF8B1600C843BA /* Project object */;
+}
