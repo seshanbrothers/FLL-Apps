@@ -32,31 +32,31 @@ function checkbuttonenables(mission,enabled) {
 }
 
 function check_missions(mission) {
-  counter = 0
-  while (counter < conflicts.length){
-    if (conflicts[counter][2] == '') {
-      checkbuttonconflict(conflicts[counter][0],conflicts[counter][1],mission)
+  conflictcount = 0
+  while (conflictcount < conflicts.length){
+    if (conflicts[conflictcount][2] == '') {
+      checkbuttonconflict(conflicts[conflictcount][0],conflicts[conflictcount][1],mission)
     }
     else {
-      checkbuttonconflict(conflicts[counter][0],conflicts[counter][1],conflicts[counter][2])
+      checkbuttonconflict(conflicts[conflictcount][0],conflicts[conflictcount][1],conflicts[conflictcount][2])
     }
-    counter = counter + 1
+    conflictcount = conflictcount + 1
   }
-  counter = 0
-  while (counter < enables.length){
-    thismission = enables[counter][1]
+  enablecount = 0
+  while (enablecount < enables.length){
+    thismission = enables[enablecount][1]
       $('#no'+thismission).checkboxradio('disable');
       $('#yes'+thismission).checkboxradio('disable');
-    counter = counter + 1
+    enablecount = enablecount + 1
   }
-  counter = 0
-  while (counter < enables.length){
-    checkbuttonenables(enables[counter][0],enables[counter][1])
-    counter = counter + 1
+  enablecount = 0
+  while (enablecount < enables.length){
+    checkbuttonenables(enables[enablecount][0],enables[enablecount][1])
+    enablecount = enablecount + 1
   }
-  counter = 0
-  while (counter < enables.length){
-    thismission = enables[counter][1]
+  enablecount = 0
+  while (enablecount < enables.length){
+    thismission = enables[enablecount][1]
     if ($('#no'+thismission).is(':disabled')) {
       document.getElementById('yes'+thismission).checked = false
       document.getElementById('no'+thismission).checked = true
@@ -64,16 +64,20 @@ function check_missions(mission) {
       // $('yes'+thismission).checkboxradio("refresh");
       // $('no'+thismission).checkboxradio("refresh");
     }
-    counter = counter + 1
+    enablecount = enablecount + 1
   }
-  $('#noallsamples').checkboxradio('disable');
-  $('#yesallsamples').checkboxradio('disable');
 
   $("input[type='radio']").attr("checked",true).checkboxradio("refresh");
 }
 
 
 savepts = 0
+maxwater = 5
+fountainUsed = 0
+treatmentUsed = 1
+flowerUsed = 0
+stackUsed = 0
+
 function recalc(points,mission,alt){
   if (alt == 1 && points == 0) {
     savepts = 1
@@ -85,25 +89,45 @@ function recalc(points,mission,alt){
     savepts = 0
   }
   //var mission = 'hi'
-  if ((mission=="manure")) {
-    if (points>30) {
-      points=points+5;
-      document.getElementById('noallsamples').checked = false
-      document.getElementById('yesallsamples').checked = true
-      // $("input[type='radio']").attr("checked",true).checkboxradio("refresh");
-      $('#noallsamples').checkboxradio("refresh");
-      $('#yesallsamples').checkboxradio("refresh");
-    } else {
-      document.getElementById('yesallsamples').checked = false
-      document.getElementById('noallsamples').checked = true
-      // $("input[type='radio']").attr("checked",true).checkboxradio("refresh");
-      $('#yesallsamples').checkboxradio("refresh");
-      $('#noallsamples').checkboxradio("refresh");
-    }
-  }
   window[mission] = points
   window[mission+'save'] = savepts
 
+  if ((mission=="fountain")) {
+      if (points > 0) {
+	  fountainUsed = 1
+      } else {
+	  fountainUsed = 0
+      }
+      document.getElementById('collection2').max = maxwater - fountainUsed - treatmentUsed - flowerUsed - stackUsed
+  }
+
+  if ((mission=="flower1")) {
+      if (points > 0) {
+	  flowerUsed = 1
+      } else {
+	  flowerUsed = 0
+      }
+      document.getElementById('collection2').max = maxwater - fountainUsed - treatmentUsed - flowerUsed - stackUsed
+  }
+
+  if ((mission=="watertreatment")) {
+      if (points > 0) {
+	  treatmentUsed = 0
+      } else {
+	  treatmentUsed = 1
+      }
+      document.getElementById('collection2').max = maxwater - fountainUsed - treatmentUsed - flowerUsed - stackUsed
+  }
+
+  if ((mission=="collection3")) {
+      if (points > 0) {
+	  stackUsed = 1
+      } else {
+	  stackUsed = 0
+      }
+      document.getElementById('collection2').max = maxwater - fountainUsed - treatmentUsed - flowerUsed - stackUsed
+  }
+    
   counter = 0
   allmission = 0
   while (counter < all_mission.length){
@@ -123,7 +147,7 @@ function recalc(points,mission,alt){
   document.getElementById('allpoints').innerHTML = allmission
   $('#noallsamples').checkboxradio('disable');
   $('#yesallsamples').checkboxradio('disable');
- 
+
     var ranges = $("input[data-type='range']");
 //    var radios = $("input[type='radio']");
 

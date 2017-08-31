@@ -11,10 +11,32 @@ function createbutton(mission,points,description){
   <tr>\
   <td>\
   <fieldset data-role="controlgroup" data-theme="b" data-type="horizontal" style="text-align: center;">\
-  <label for="yes'+mission+'">{{Yes}}</label>\
+  <label for="yes'+mission+'">Yes</label>\
   <input  type="radio" onclick="check_missions(\''+mission+'\');recalc('+points+',\''+mission+'\',1)" name="'+mission+'" value="true" id="yes'+mission+'" checked=false>\
-  <label for="no'+mission+'">{{No}}</label>\
+  <label for="no'+mission+'">No</label>\
   <input  type="radio" onclick="check_missions(\''+mission+'\');recalc(0,\''+mission+'\', 0)" name="'+mission+'"  value="false" id="no'+mission+'" checked="true">\
+  </fieldset>\
+  </td>\
+  </tr>')
+}
+
+function createdeliverbutton(mission,partlypoints,completelypoints,description){
+  window[mission] = 0
+  window[mission+'save'] = 0
+    document.write('<tr>\
+  <td width="200" style="font-size: 100%; background-color: sky;">\
+  '+description+'\
+  </td>\
+  </tr>\
+  <tr>\
+  <td>\
+  <fieldset data-role="controlgroup" data-theme="b" data-type="horizontal" style="text-align: center;">\
+  <label for="no'+mission+'">No</label>\
+  <input  type="radio" onclick="check_missions(\''+mission+'\');recalc(0,\''+mission+'\', 0)" name="'+mission+'"  value="false" id="no'+mission+'" checked="true">\
+  <label for="yes'+mission+'">Partly</label>\
+  <input  type="radio" onclick="check_missions(\''+mission+'\');recalc('+partlypoints+',\''+mission+'\',1)" name="'+mission+'" value="true" id="yes'+mission+'" checked=false>\
+  <label for="completely'+mission+'">Completely</label>\
+  <input  type="radio" onclick="check_missions(\''+mission+'\');recalc('+completelypoints+',\''+mission+'\',1)" name="'+mission+'" value="true" id="yes'+mission+'" checked=false>\
   </fieldset>\
   </td>\
   </tr>')
@@ -37,7 +59,7 @@ function starttable(mission, title, image, children, extrarows){
   <table style="border: 1px solid black; border-collapse: collapse; " border="1">\
   <tr>\
     <td rowspan="'+element+'"> <img src="missions/'+image+'" width="80"></td>\
-    <td width="300" style="font-size: 110%; text-align: center; background-color: green; color: white;">\
+    <td width="300" style="font-size: 110%; text-align: center; background-color: blue; color: white;">\
   '+mission+" - "+title+": "+'\
       <i style="font-style: normal;" id="'+mission+'pts">0</i>\
     </td>\
@@ -76,7 +98,7 @@ function startrow(width) {
   if (window.innerWidth > width) {
     //alert(screen.width)
     //alert(width)
-    document.write('<td valign="top">')
+    document.write('<td style="display: inline-block;" valign="top">')
   }
 }
 function endrow(width) {
@@ -89,7 +111,7 @@ function endrow(width) {
 function breakrow(minwidth, maxwidth) {
   if (window.innerWidth > minwidth && window.innerWidth < maxwidth) {
     document.write('</td>')
-    document.write('<td valign="top">')
+    document.write('<td style="display: inline-block;" valign="top">')
   } else {
   }
 }

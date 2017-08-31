@@ -10,40 +10,11 @@
     $.mobile.pushStateEnabled = false;
   });
 
-  if (window.location.hash) {
-    // Puts hash in variable, and removes the # character
-    var language = window.location.hash.substring(1);
-    if (window.location.hash == "#br") {
-      window.location.hash = "#pt-br";
-      setTimeout(function(){location.reload(true);},100);
-    }
-  } else {
-    // window.location.replace("#en-us");
-    var language = "en-us";
-    // location.reload();
-  }
-  var page = window.location.href.split("#")[0];
-  var enus = ''+ page +'#en-us';
-  var es = ''+ page +'#es';
-  var nl = ''+ page +'#nl';
-  var ar = ''+ page +'#ar';
-  var ptbr = ''+ page +'#pt-br';
-  var el  = ''+ page +'#el';
-  var fr  = ''+ page +'#fr';
-  var ct  = ''+ page +'#ct';
-  var he  = ''+ page +'#he';
-  var fr  = ''+ page +'#fr';
-  // var page = window.location.href.split("#")[0];
-  // alert (page);
-  // var href = window.location.href;
-  // alert(href);
-
 
   </script>
   <script src="jquery.mobile-1.4.5.min.js"></script>
   <script src="highcharts.js"></script>
   <script src="exporting.js"></script>
-  <script src="angular.min.js"></script>
   <script src="scorer.js"></script>
   <script src="timers.js"></script>
   <script src="saver.js"></script>
@@ -59,35 +30,33 @@
     <div>
       <div style="float: right; margin-right: 20px; font-size:12px">by <a href="http://ev3lessons.com" data-ajax="false"><img src="images/ev3lessons.jpg" width="139"></a>
       </div>
-      <div style="float: left; margin-left:10px">  <a href="#en-us" data-ajax="false" onclick="setTimeout(function(){window.location.reload(true);},100)"><img src="../../images/icons/countries/us.png"></a>
-        <a href="#pt-br" data-ajax="false" onclick="setTimeout(function(){window.location.reload(true);},100)"><img src="../../images/icons/countries/br.png"></a>
-        <a href="#nl" data-ajax="false" onclick="setTimeout(function(){window.location.reload(true);},100)"><img src="../../images/icons/countries/nl.png"></a>
-        <a href="#es" data-ajax="false" onclick="setTimeout(function(){window.location.reload(true);},100)"><img src="../../images/icons/countries/es.png"></a>
-        <a href="#de" data-ajax="false" onclick="setTimeout(function(){window.location.reload(true);},100)"><img src="../../images/icons/countries/small/Germany.png"></a>
-        <a href="#hu" data-ajax="false" onclick="setTimeout(function(){window.location.reload(true);},100)"><img src="../../images/icons/countries/small/Hungary.png"></a>
-        <a href="#fr" data-ajax="false" onclick="setTimeout(function(){window.location.reload(true);},100)"><img src="../../images/icons/countries/small/France.png"></a>
-      </div>
-      <div style="margin: 0 auto; width: 400px; font-size:24px"><b>{{Title}}</b>
+      <div style="float: left; margin-left:10px">
+          </div>
+      <div style="margin: 0 auto; width: 400px; font-size:24px"><b>Hydro Dynamics Scorer</b>
       </div>
 
     </div>
     <br>
 
-    <div data-tap-toggle="false" data-role="footer" style="background-color: green; font-size: 120%; color: white;" data-theme="a" data-position="fixed">
-      <h1 style="padding-top:0; padding-bottom:0" ><i>{{Points}}: </i><i id="allpoints"> 0</i> &emsp; &emsp; &emsp; <input type="button" value="{{Reset}}" class="ui-mini" onclick='document.getElementById("missions").reset();loadsave("shark|0,shark2|0,shark3|0,servicedog|0,pairs|0,food|0,biomimicrywall|0,biomimicrywall2|0,milkingautomation|0,milkingautomation2|0,pandaobservation|0,camera|0,dogandtrainer|0,zoologist|0,manure|0,beehive|0,honey|0,ourlittlefriend|0,farm|0,seal|0,milk|0,ramp1|0,ramp2|0,ramp3|0,allsamples|0,penalty|0");'></h1>
+    <div data-tap-toggle="false" data-role="footer" style="background-color: blue; font-size: 120%; color: white;" data-theme="a" data-position="fixed">
+      <h1 style="padding-top:0; padding-bottom:0" ><i>Points: </i><i id="allpoints"> 0</i> &emsp; &emsp; &emsp; <input type="button" value="Reset" class="ui-mini" onclick='document.getElementById("missions").reset();loadsave("piperemoval|0,flow|0,pumpaddition|0,rain|0,filter|0,watertreatment|0,fountain|0,manholecovers|0,manholecovers2|0,tripod|0,tripod2|0,pipereplacement|0,pipeconstruction|0,pipeconstruction2|0,sludge|0,flower1|0,flower2|0,well|0,well2|0,fire|0,collection1|0,collection2|0,collection3|0,slingshot1|0,slingshot2|0,faucet|0,penalty|0");'></h1>
     </div>
     <script src="html.js"></script>
 
   </head>
-  <body onload="
-//check_missions('shark');//recalc(0,'shark',1);//$('#noallsamples').checkboxradio('disable');//$('#yesallsamples').checkboxradio('disable');">
+  <body onload="check_missions('piperemoval');recalc(0,'piperemoval',1);">
     <div role="main" class="ui-content">
 
       <div data-role="tabs">
 
         <div id="tabs-1">
           <form id="missions">
-            <table>
+            <style>
+            #table_id  {display: block; }
+//      tr td {display: inline-block; }
+
+            </style>
+            <table style="display: block;" id="table_id">
               <tr>
                 <script>
 
@@ -97,123 +66,110 @@
                 all_screen = 0
                 startrow(all_screen)
 
-                starttable('M01', 'Pipe Removal','M01.png' , ['piperemoval'], 1)
-                createbutton("piperemoval", 7, 'Is the pipe removed from the location and completely in base?')
-                createcomment('')
+                starttable('M01', 'Pipe Removal','M01.png' , ['piperemoval'], 0)
+                createbutton("piperemoval", 20, 'Is the broken pipe completely in base?')
                 endtable()
 
-                starttable('M02', 'Flow','M02.png', ['servicedog'], 1)
-                createbutton("servicedog", 15 , '{{M02a}}')
-                createcomment('{{M02b}}')
+                starttable('M02', 'Flow','M02.png', ['flow'], 0)
+                createbutton("flow", 25 , 'Is one Big Water in the other team’s field as a result of turning the Pump System’s valve(s)?')
                 endtable()
 
-                starttable('M03', 'Pump Addition','M03.png', ['pumpaddition'], 1)
-		createbutton("pumpaddition", 15 , 'Is the pump completely in the designated location?')
-                createcomment('')
+                starttable('M03', 'Pump Addition','M03.png', ['pumpaddition'], 0)
+                createbutton("pumpaddition", 20 , 'Is the Pump Addition in contact with the mat and completely inside the Pump Addition target?')
                 endtable()
 
-                starttable('M04', 'Rain','M04.png', ['rain', 'rain2'], 1)
-                createrange("rain", 10 , 0, 9, 0, 'How many rain are on the mat?','if (this.value > 9-document.getElementById("rain2").value) {document.getElementById("rain2").value=9-this.value;recalc(document.getElementById("rain2").value*10,"rain2",document.getElementById("rain2").value)}')
-		createrange("rain2", 10 , 0, 9, 0, 'How many rain are in base?','if (this.value > 9-document.getElementById("rain").value) {document.getElementById("rain").value=9-this.value;recalc(document.getElementById("rain").value*10,"rain",document.getElementById("rain").value)}')
-                createcomment('Note: There are only 9 rain.')
+                starttable('M04', 'Rain','M04.png', ['rain'], 0)
+		            createbutton("rain", 20 , 'Did at least one Rain come out of the Rain Cloud?')
                 endtable()
 
-                starttable('M05', 'Filter','M05.png' , ['filter'], 1)
-                createbutton("filter", 15 , 'Is the filter competely pushed in?')
-                createcomment('')
+                starttable('M05', 'Filter','M05.png' , ['filter'], 0)
+                createbutton("filter", 30 , 'Has the Filter been moved north until the lock latch drops?')
+                endtable()
+
+                starttable('M06', 'Water Treatment','M06.png', ['watertreatment'], 0)
+                createbutton("watertreatment", 20, 'Has the Big Water been ejected, due only to moving the Toilet lever?')
+                endtable()
+
+
+                starttable('M07', 'Fountain','M07.png' , ['fountain'], 0)
+                createbutton("fountain", 20 , 'Has the Fountain’s middle layer risen some obvious height, due only to a Big Water in the gray tub?')
+                endtable()
+
+                starttable('M08', 'Manhole Covers','M08.png', ['manholecovers', 'manholecovers2'], 0)
+                createrange("manholecovers", 15 , 0, 2, 0, 'How many Manhole covers are flipped over past veritical without ever reaching Base?','')
+                createbutton("manholecovers2", 30 , 'Are both Manhole covers completely in separate Tripod targets?')
                 endtable()
 
                 breakrow(mobile1,100000)
 
-                starttable('M06', 'Water Treatment','M06.png', ['milkingautomation','milkingautomation2'], 1)
-                createbutton("milkingautomation", 15 , '{{M06a}}')
-                createbutton("milkingautomation2", 20 , '{{M06b}}')
-                createbuttonconflict('milkingautomation','milkingautomation2','')
-                createcomment('{{M06c}}')
-                endtable()
 
+                starttable('M09', 'Tripod','M09.png' , ['tripod','tripod2'], 0)
+                createbutton("tripod", 15 , 'Is the inspection camera Tripod partly in either Tripod target, with all of its feet touching the mat?')
+                createbutton("tripod2", 20 , 'Is the inspection camera Tripod completely in either Tripod target, with all of its feet touching the mat?')
+		            createbuttonconflict('tripod','tripod2','')
+                endtable()
                 //            endrow(mobile)
                 //            startrow(mobile)
 
-                starttable('M07', 'Fountain','M07.png' , ['pandaobservation'], 0)
-                createbutton("pandaobservation", 10 , '{{M07a}}')
-                endtable()
-
-                starttable('M08', 'Manhole Covers','M08.png' , ['manholecovers'], 0)
-                createrange("manholecovers", 10 , 0, 2, 0, 'How many manhole covers in their designated area match the color of the filter?')
-                endtable()
-
                 breakrow(mobile,mobile1)
 
-                starttable('M09', 'Tripod','M09.png' , ['dogandtrainer', 'zoologist','manure'], 1)
-                createbutton("dogandtrainer", 12 , '{{M09a}}')
-                createbutton("zoologist", 15 , '{{M09b}}')
-/*                if (language == 'de') {
-#                  count = 12;
-#                } else {
-#                  count = 7;
-#                }
-		*/
-		count = 7
-                createrange("manure", 5 , 0, count, 0, '{{M09c}}')
-                createcomment('{{M09d}}')
+
+                starttable('M10', 'Pipe Replacement','M10.png' , ['pipereplacement'], 0)
+                createbutton("pipereplacement", 20 , 'Is the New Pipe in the location the Broken Pile was, in full/flat contact with the mat?')
                 endtable()
 
-                starttable('M10', 'Pipe Replacement','M10.png' , ['beehive', 'honey'], 0)
-                createbutton("beehive", 12 , '{{M10a}}')
-                createbutton("honey", 15 , '{{M10b}}')
-                createbuttonconflict('beehive','honey','')
-                endtable()
 
-                breakrow(mobile1,100000)
-
-                starttable('M11', 'Pipe Construction','M11.png' , ['ourlittlefriend', 'farm'], 0)
-                createbutton("ourlittlefriend", 9, '{{M11a}}')
-                createbutton("farm", 15, '{{M11b}}')
-                createbuttonconflict('ourlittlefriend','farm','')
+                starttable('M11', 'Pipe Construction','M11.png' , ['pipeconstruction', 'pipeconstruction2'], 0)
+                createbutton("pipeconstruction", 15, 'Is the New Pipe partly in its target, in full/flat contact with the mat?')
+                createbutton("pipeconstruction2", 20, 'Is the New Pipe completely in its target, in full/flat contact with the mat?')
+                createbuttonconflict('pipeconstruction','pipeconstruction2','')
                 endtable()
 
                 //            endrow(mobile1)
                 //            startrow(mobile1)
 
-                starttable('M12', 'Sludge','M12.png' , ['seal'], 0)
-                createbutton("seal", 1 ,'{{M12a}}')
+                starttable('M12', 'Sludge','M12.png', ['sludge'], 0)
+                createbutton("sludge", 30 ,'Is the Sludge touching the visible wood of any of the six drawn garden boxes?')
                 endtable()
 
-                starttable('M13', 'Flower','M13.png', ['milk'], 0)
-                createbutton("milk", 1 , '{{M13a}}')
+                starttable('M13', 'Flower','M13.png', ['flower1', 'flower2'], 0)
+                createbutton("flower1", 30 , 'Has the Flower risen some obvious height and stays there, due only to a Big Water in the brown pot?')
+                createbutton("flower2", 30 , 'Does the Flower have at least one Rain in the purple part, touching nothing but the Flower model.')
+                createbuttonenables('flower1','flower2')
                 endtable()
 
-                starttable('M14', 'Water Well','M14.png', ['ramp1','ramp2','ramp3'], 0)
-                createbutton("ramp1", 2 , '{{M14a}}')
-                createbutton("ramp2", 3 , '{{M14b}}')
-                createbutton("ramp3", 4 , '{{M14c}}')
-                createbuttonconflict('milk','ramp1','')
-                createbuttonconflict('milk','ramp2','')
-                createbuttonconflict('milk','ramp3','')
-                createbuttonconflict('ramp1','ramp2','')
-                createbuttonconflict('ramp1','ramp3','')
-                createbuttonconflict('ramp2','ramp3','')
+                starttable('M14', 'Water Well','M14.png', ['well','well2'], 0)
+//                createdeliverbutton("well", 15, 25, 'Is the Water Well in contact with the mat and that contact is partly inside the Water Well target?')
+                createbutton("well", 15, 'Is the Water Well in contact with the mat and that contact is partly inside the Water Well target?')
+                createbutton("well2", 25, 'Is the Water Well in contact with the mat and that contact is completely in the Water Well target?')
+                createbuttonconflict('well','well2','')
                 endtable()
 
-                starttable('M15', 'Fire','M15.png', ['allsamples'], 0)
-                createbutton("allsamples", 0 , '{{M15a}}')
+                breakrow(mobile1,100000)
+
+                starttable('M15', 'Fire','M15.png', ['fire'], 0)
+                createbutton("fire", 25, 'Did the fire drop only by making the Firetruck apply direct force to the House’s lever?')
                 endtable()
 
-		 starttable('M16', 'Water Collection','M16.png', ['milk'], 0)
-                createbutton("milk", 1 , '{{M13a}}')
+		            starttable('M16', 'Water Collection', 'M16.png', ['collection1', 'collection2', 'collection3'], 1)
+                createbutton("collection1", 10, 'Is there at least one Rain touching the mat in the Water Target and touching nothing else other than the target and/or other water?')
+                createrange("collection2", 10, 0, 4, 0, 'How many Big Water are there that are touching the mat in the Water Target and touching nothing else other than the target and/or other water?','')
+                createbutton("collection3", 30, 'Is there at least one Big Water on top of the above Big Water with nothing touching it but other water?')
+                createcomment('Note: Target must never touch the Off-Limits Line. Water may be touching the target, and/or other water, but not be touching nor guided by anything else.')
                 endtable()
 
-		 starttable('M17', 'Slingshot','M17.png', ['milk'], 0)
-                createbutton("milk", 1 , '{{M13a}}')
+		            starttable('M17', 'Slingshot','M17.png', ['slingshot1', 'slingshot2'], 0)
+                createbutton("slingshot1", 20, 'Is the Sligshot completely in its target?')
+                createbutton("slingshot2", 15, 'Is the Dirty Water and a Rain completely in the Slingshot target?')
+                createbuttonenables('slingshot1','slingshot2')
                 endtable()
 
-		 starttable('M18', 'Faucet','M18.png', ['milk'], 0)
-                createbutton("milk", 1 , '{{M13a}}')
+		            starttable('M18', 'Faucet','M18.png', ['faucet'], 0)
+                createbutton("faucet", 25, 'Is the water level obviously more blue than white as seen from above the cup, only by turning the Faucet handle?')
                 endtable()
 
-                starttable('P','{{Penalty}}','penalty.png', ['penalty'], 0)
-                createrange("penalty", -6 , 0, 5, 0, '{{Penaltya}}')
+                starttable('P','Penalties','penalty.png', ['penalty'], 0)
+                createrange("penalty", -5 , 0, 6, 0, 'How many penalties are in the white triangle area?','')
                 endtable()
 
 
@@ -227,11 +183,6 @@
               </tr>
             </table>
             <br>
-            Also available on:
-            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.ev3lessons.animalalliesscorer">
-              <img height="40" alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png">
-            </a>
-            <a href="https://itunes.apple.com/us/app/fll-animal-allies-scorer/id1153164445?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;"></a>
 
           </form>
         </div>
@@ -246,17 +197,17 @@
                     </p>
                   </td>
                   <td style="border: 10px solid black; border-collapse: collapse;">
-                    <button style="margin:0" onclick="CDtimer()">{{Start}}</button>
+                    <button style="margin:0" onclick="CDtimer()">Start</button>
                   </td>
                 </tr>
                 <tr style="border: 10px solid black; border-collapse: collapse;">
                   <td style="border: 10px solid black; border-collapse: collapse;">
-                    <button style="margin:0" onclick="document.getElementById('countdownTime').textContent = '2:30'; CDseconds = 30; CDminutes = 2; clearTimeout(CDinterval); CDinterval = null;">{{Reset}}</button>
+                    <button style="margin:0" onclick="document.getElementById('countdownTime').textContent = '2:30'; CDseconds = 30; CDminutes = 2; clearTimeout(CDinterval); CDinterval = null;">Reset</button>
                   </td>
                 </tr>
                 <tr>
                   <td style="border: 10px solid black; border-collapse: collapse;">
-                    <button style="margin:0" id="stopSW" onclick="clearTimeout(CDinterval); CDinterval = null;">{{Stop}}</button>
+                    <button style="margin:0" id="stopSW" onclick="clearTimeout(CDinterval); CDinterval = null;">Stop</button>
                   </td>
                 </tr>
               </table>
@@ -272,17 +223,17 @@
                     </p>
                   </td>
                   <td style="border: 10px solid black; border-collapse: collapse;">
-                    <button style="margin:0" id="startSW" onclick="SWtimer();">{{Start}}</button>
+                    <button style="margin:0" id="startSW" onclick="SWtimer();">Start</button>
                   </td>
                 </tr>
                 <tr>
                   <td style="border: 10px solid black; border-collapse: collapse;">
-                    <button style="margin:0" id="resetSW" onclick="document.getElementById('stopwatchTime').textContent = '00:00.0'; SWseconds = 0; SWminutes = 0; SWtenths=0; clearTimeout(SWinterval); SWinterval = null;">{{Reset}}</button>
+                    <button style="margin:0" id="resetSW" onclick="document.getElementById('stopwatchTime').textContent = '00:00.0'; SWseconds = 0; SWminutes = 0; SWtenths=0; clearTimeout(SWinterval); SWinterval = null;">Reset</button>
                   </td>
                 </tr>
                 <tr>
                   <td style="border: 10px solid black; border-collapse: collapse;">
-                    <button style="margin:0" id="stopSW" onclick="clearTimeout(SWinterval); SWinterval = null;">{{Stop}}</button>
+                    <button style="margin:0" id="stopSW" onclick="clearTimeout(SWinterval); SWinterval = null;">Stop</button>
                   </td>
                 </tr>
               </table>
@@ -290,12 +241,12 @@
           </p>
         </div>
         <div id="tabs-3">
-          <div style="width: 340">     <button type="button" onclick="sharksave=0;saveLocalStorage() ; saver();loadsaves(); drawBasic(); maximum = window.localStorage.DRAAscorer.split('/').length-1" >{{SaveScore}}</button></div>
+          <div style="width: 340">     <button type="button" onclick="sharksave=0;saveLocalStorage() ; saver();loadsaves(); drawBasic(); maximum = window.localStorage.DRHDSscorer.split('/').length-1" >Save Score</button></div>
           <br>
 
           <div class="ui-grid-b ui-responsive">
             <div style="width: 170" class="ui-block-a" align="left" style="float: left;">  <div class="button-wrap">
-              <button style="text-align: left;" class="ui-shadow ui-btn ui-corner-all" type="button" onclick="loader(document.getElementById('saveid').value)">{{LoadSave}}:</button></div></div>
+              <button style="text-align: left;" class="ui-shadow ui-btn ui-corner-all" type="button" onclick="loader(document.getElementById('saveid').value)">Load Save:</button></div></div>
               <div class="ui-block-b" style="width: 170">
 
                 <div data-role="stepper" data-direction="vertical">
@@ -310,7 +261,7 @@
                   -moz-appearance:textfield;
                   }		</style>
                   <script>
-                  start = 1; maximum = window.localStorage.DRAAscorer.split('/').length-1 ; min=1 ; increment = 1;mission = "saveid" ;
+                  start = 1; maximum = window.localStorage.DRHDSscorer.split('/').length-1 ; min=1 ; increment = 1;mission = "saveid" ;
                   document.write(' <input data-role="spinbox"   type="number"  data-highlight="true" data-theme="b" onchange="if (this.value > maximum) {this.value = this.value - 1}" search="2" class="quantity" data-show-value="true" name="'+mission+'" id="'+mission+'" value="'+start+'" min="'+min+'" step="1" >')
 
                   </script>
@@ -319,21 +270,21 @@
               </div>
 
             </div>
-            <div style="width: 340">	  <button class="ui-button ui-widget ui-corner-all" type="button" onclick="window.localStorage.DRAAscorer = ''; window.localStorage.DRAA1scorer = ''; loadsaves(); drawBasic(); alert(DeletedSave)">{{DeleteSave}}</button></div>
+            <div style="width: 340">	  <button class="ui-button ui-widget ui-corner-all" type="button" onclick="window.localStorage.DRHDSscorer = ''; window.localStorage.DRHDS1scorer = ''; loadsaves(); drawBasic(); alert('Deleted Saves')">Delete Save</button></div>
 
             <div style="width: 340">
               <div id="container" style="min-width: 310px; height: 200px; margin: 0 auto"></div>
               <div id="saves" ></div>
 
-              <button class="ui-mini" onclick=" document.getElementById('fileInput').click() ; 
-//alert('choose .AA1EV3 file') ; document.getElementById('fileInput2').click();">{{ImportSave}}</button>
+              <button class="ui-mini" onclick=" document.getElementById('fileInput').click() ;
+//alert('choose .AA1EV3 file') ; document.getElementById('fileInput2').click();">Import Save</button>
 
-              <input onchange="setTimeout(function(){ loadsaves(); drawBasic();document.getElementById('saveid').max = window.localStorage.DRAAscorer.split('/').length-1;},300)" style=" position: fixed;    bottom: -10000;   left: -100000; }, 30);" type="file" id="fileInput">
-              <input onchange="setTimeout(function(){ loadsaves(); drawBasic();document.getElementById('saveid').max = window.localStorage.DRAAscorer.split('/').length-1;},300)" style=" position: fixed;    bottom: -10000;   left: -100000; }, 30);" type="file" id="fileInput2">
+              <input onchange="setTimeout(function(){ loadsaves(); drawBasic();document.getElementById('saveid').max = window.localStorage.DRHDSscorer.split('/').length-1;},300)" style=" position: fixed;    bottom: -10000;   left: -100000; }, 30);" type="file" id="fileInput">
+              <input onchange="setTimeout(function(){ loadsaves(); drawBasic();document.getElementById('saveid').max = window.localStorage.DRHDSscorer.split('/').length-1;},300)" style=" position: fixed;    bottom: -10000;   left: -100000; }, 30);" type="file" id="fileInput2">
 
               <a style=" position: fixed;    bottom: -10000;   left: -100000;"id="export" href="#">Export Saves</a>
               <a style=" position: fixed;    bottom: -10000;   left: -100000;"id="export2" href="#">Export2 Saves</a>
-              <button class="ui-mini" onclick="document.getElementById('export').click(); document.getElementById('export2').click()">{{ExportSave}}</button>
+              <button class="ui-mini" onclick="document.getElementById('export').click(); document.getElementById('export2').click()">Export Save</button>
               <script type="text/javascript">
               var anchor = document.getElementById('export');
               var anchor2 = document.getElementById('export2');
@@ -341,14 +292,14 @@
               anchor.onclick = function() {
                 var currentTime = new Date()
                 var day = currentTime.getDate()
-                anchor.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(window.localStorage.DRAAscorer + ';' + window.localStorage.DRAA1scorer);
+                anchor.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(window.localStorage.DRHDSscorer + ';' + window.localStorage.DRHDS1scorer);
                 anchor.download = day + 'myscores.DRHD';
-                //     setTimeout(function(){   ;  anchor.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(window.localStorage.DRAA1scorer);    anchor.download = day + 'myscores.AA1EV3';}, 50)
+                //     setTimeout(function(){   ;  anchor.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(window.localStorage.DRHDS1scorer);    anchor.download = day + 'myscores.AA1EV3';}, 50)
               };
               anchor2.onclick = function() {
                 var currentTime = new Date()
             //    var day = currentTime.getDate()
-            //    anchor2.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(window.localStorage.DRAA1scorer);
+            //    anchor2.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(window.localStorage.DRHDS1scorer);
             //    anchor2.download = day + 'myscores.AA1EV3';
               }
               </script>
@@ -361,9 +312,9 @@
             <div data-tap-toggle="false" data-role="header" data-position="fixed">
 
               <ul>
-                <li><a class="ui-btn-active" href="#tabs-1">{{Scorer}}</a></li>
-                <li><a href="#tabs-2">{{Timers}}</a></li>
-                <li><a href="#tabs-3">{{Saves}}</a></li>
+                <li><a class="ui-btn-active" href="#tabs-1">Scorer</a></li>
+                <li><a href="#tabs-2">Timers</a></li>
+                <li><a href="#tabs-3">Saves</a></li>
               </ul>
             </div>
           </div>
@@ -374,15 +325,15 @@
     <script src="languages.js"></script>
     <script>
 
-    loadsaves(); drawBasic();
 
     </script>
   </body>
   <script>
   window.onload = function() {
+    loadsaves(); drawBasic();
 
     //document.getElementById('noshark').click()
-
+    check_missions('slingshot2');recalc(0,'slingshot2', 0)
  //   check_missions('shark');recalc(0,'shark',1);$('#noallsamples').checkboxradio('disable');$('#yesallsamples').checkboxradio('disable');
     var fileInput = document.getElementById('fileInput');
 
@@ -397,8 +348,8 @@
           data = reader.result;
           //alert(data)
 
-          window.localStorage.DRAAscorer = data.split(';')[0];
-          window.localStorage.DRAA1scorer = data.split(';')[1];
+          window.localStorage.DRHDSscorer = data.split(';')[0];
+          window.localStorage.DRHDS1scorer = data.split(';')[1];
         }
 
         reader.readAsText(file);
@@ -422,7 +373,7 @@
 
           data2 = reader2.result;
           //alert(data2)
-          window.localStorage.DRAA1scorer =  data2;
+          window.localStorage.DRHDS1scorer =  data2;
         }
 
         reader2.readAsText(file2);
@@ -441,5 +392,5 @@
   ga('create', 'UA-65893558-1', 'auto');
   ga('send', 'pageview');
   </script>
-  
-Scoring System Version 3.9.9 v4.0.0 Alpha
+
+Hydro Dynamics Scoring System Version 1.0.0. Copyright (c) EV3Lessons.com

@@ -41,12 +41,12 @@ function loadsave(save) {
 }
 function saver() {
   getvar();
-  window.localStorage.DRAAscorer = window.localStorage.DRAAscorer + '/' + store
+  window.localStorage.DRHDSscorer = window.localStorage.DRHDSscorer + '/' + store
   alert('saved');
 }
 function loader(save) {
   alert('loaded');
-  data = window.localStorage.DRAAscorer.split('/')[save];
+  data = window.localStorage.DRHDSscorer.split('/')[save];
   //alert(data)
   loadsave(String(data));
 }
@@ -57,29 +57,29 @@ function drawBasic() {
 
   nn = 1;
   array = [];
-  array[0] = parseInt(window.localStorage.DRAA1scorer.split(' Points')[0].split(',')[0]);
+  array[0] = parseInt(window.localStorage.DRHDS1scorer.split(' Points')[0].split(',')[0]);
   vvv = 1;
-  lt = window.localStorage.DRAA1scorer.split(',').length - 0;
+  lt = window.localStorage.DRHDS1scorer.split(',').length - 0;
   while (vvv < lt) {
-    array[nn] = parseInt(window.localStorage.DRAA1scorer.split(' Points')[vvv].split(',')[1]);
+    array[nn] = parseInt(window.localStorage.DRHDS1scorer.split(' Points')[vvv].split(',')[1]);
     vvv = vvv + 1;
     nn = nn+1;
   }
   //format:'#,###%'
 
   /*	     if (array[2] != undefined){
-  array[2] = parseInt(window.localStorage.DRAA1scorer.split(' Points')[2].split(',')[1]);
+  array[2] = parseInt(window.localStorage.DRHDS1scorer.split(' Points')[2].split(',')[1]);
 }*/
 //    array = cleanArray(array);
-//   array[2] = parseInt(window.localStorage.DRAA1scorer.split(' Points')[2].split(',')[1]);
-//   array[3] = parseInt(window.localStorage.DRAA1scorer.split(' Points')[3].split(',')[1]);
+//   array[2] = parseInt(window.localStorage.DRHDS1scorer.split(' Points')[2].split(',')[1]);
+//   array[3] = parseInt(window.localStorage.DRHDS1scorer.split(' Points')[3].split(',')[1]);
 
 
 
 $(function () {
   $('#container').highcharts({
     title: {
-      text: GraphTitle,
+      text: 'Improvement',
       x: -20 //centre
     },
     subtitle: {
@@ -95,7 +95,7 @@ $(function () {
     },
     yAxis: {
       title: {
-        text: PointsLang
+        text: 'Points'
       },
       plotLines: [{
         value: 0,
@@ -113,7 +113,7 @@ $(function () {
       borderWidth: 0
     },
     series: [{
-      name: GraphLegend,
+      name: 'Save',
       data: array,
     }]
   });
@@ -126,11 +126,11 @@ $(function () {
 
 function loadsaves() {
   n = 0;
-  a = window.localStorage.DRAA1scorer.split(',').length;
+  a = window.localStorage.DRHDS1scorer.split(',').length;
   document.getElementById('saves').innerHTML = "";
   while(n < a) {
     //alert(n)
-    document.getElementById('saves').innerHTML = document.getElementById('saves').innerHTML +' Save '+ String(n+1) + ': ' +  window.localStorage.DRAA1scorer.split(',')[n] + '<br>'  ;
+    document.getElementById('saves').innerHTML = document.getElementById('saves').innerHTML +' Save '+ String(n+1) + ': ' +  window.localStorage.DRHDS1scorer.split(',')[n] + '<br>'  ;
     n = n+1;
     //	      alert(x);
   }
@@ -172,18 +172,18 @@ function saveLocalStorage() {
   var datetime = currenttime + ' ' + currentdate;
 
 
-  if (window.localStorage.DRAA1scorer != undefined && window.localStorage.DRAA1scorer != '' ) {
-    window.localStorage.DRAA1scorer = String(window.localStorage.DRAA1scorer) + ',' + String( allmission) + ' Points - ' + datetime;
-    //window.localStorage.DRAA1scorer =  allmission;
+  if (window.localStorage.DRHDS1scorer != undefined && window.localStorage.DRHDS1scorer != '' ) {
+    window.localStorage.DRHDS1scorer = String(window.localStorage.DRHDS1scorer) + ',' + String( allmission) + ' Points - ' + datetime;
+    //window.localStorage.DRHDS1scorer =  allmission;
     //alert(allmission);
-    //alert(window.localStorage.DRAA1scorer);
+    //alert(window.localStorage.DRHDS1scorer);
   } else {
-    window.localStorage.DRAA1scorer =  allmission  + ' Points - ' + datetime;
-    //alert(window.localStorage.DRAA1scorer + 'hi');
+    window.localStorage.DRHDS1scorer =  allmission  + ' Points - ' + datetime;
+    //alert(window.localStorage.DRHDS1scorer + 'hi');
   }
 
 }
 
-if (window.localStorage.DRAA1scorer == undefined){
-  window.localStorage.DRAA1scorer = ''
+if (window.localStorage.DRHDS1scorer == undefined){
+  window.localStorage.DRHDS1scorer = ''
 }
