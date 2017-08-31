@@ -11,32 +11,10 @@ function createbutton(mission,points,description){
   <tr>\
   <td>\
   <fieldset data-role="controlgroup" data-theme="b" data-type="horizontal" style="text-align: center;">\
-  <label for="yes'+mission+'">Yes</label>\
+  <label for="yes'+mission+'">'+yes+'</label>\
   <input  type="radio" onclick="check_missions(\''+mission+'\');recalc('+points+',\''+mission+'\',1)" name="'+mission+'" value="true" id="yes'+mission+'" checked=false>\
-  <label for="no'+mission+'">No</label>\
+  <label for="no'+mission+'">'+no+'</label>\
   <input  type="radio" onclick="check_missions(\''+mission+'\');recalc(0,\''+mission+'\', 0)" name="'+mission+'"  value="false" id="no'+mission+'" checked="true">\
-  </fieldset>\
-  </td>\
-  </tr>')
-}
-
-function createdeliverbutton(mission,partlypoints,completelypoints,description){
-  window[mission] = 0
-  window[mission+'save'] = 0
-    document.write('<tr>\
-  <td width="200" style="font-size: 100%; background-color: sky;">\
-  '+description+'\
-  </td>\
-  </tr>\
-  <tr>\
-  <td>\
-  <fieldset data-role="controlgroup" data-theme="b" data-type="horizontal" style="text-align: center;">\
-  <label for="no'+mission+'">No</label>\
-  <input  type="radio" onclick="check_missions(\''+mission+'\');recalc(0,\''+mission+'\', 0)" name="'+mission+'"  value="false" id="no'+mission+'" checked="true">\
-  <label for="yes'+mission+'">Partly</label>\
-  <input  type="radio" onclick="check_missions(\''+mission+'\');recalc('+partlypoints+',\''+mission+'\',1)" name="'+mission+'" value="true" id="yes'+mission+'" checked=false>\
-  <label for="completely'+mission+'">Completely</label>\
-  <input  type="radio" onclick="check_missions(\''+mission+'\');recalc('+completelypoints+',\''+mission+'\',1)" name="'+mission+'" value="true" id="yes'+mission+'" checked=false>\
   </fieldset>\
   </td>\
   </tr>')
