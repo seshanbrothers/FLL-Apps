@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68AB10BE1F5F67ED0001F384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AB10BD1F5F67ED0001F384 /* main.m */; };
+		68AB10C11F5F67ED0001F384 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AB10C01F5F67ED0001F384 /* AppDelegate.m */; };
+		68AB10C41F5F67ED0001F384 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AB10C31F5F67ED0001F384 /* ViewController.m */; };
+		68AB10C71F5F67ED0001F384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68AB10C51F5F67ED0001F384 /* Main.storyboard */; };
+		68AB10C91F5F67ED0001F384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68AB10C81F5F67ED0001F384 /* Assets.xcassets */; };
+		68AB10CC1F5F67ED0001F384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68AB10CA1F5F67ED0001F384 /* LaunchScreen.storyboard */; };
+		68AB10D71F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AB10D61F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerTests.m */; };
+		68AB10E21F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AB10E11F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68AB10D31F5F67ED0001F384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68AB10B11F5F67ED0001F384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68AB10B81F5F67ED0001F384;
+			remoteInfo = "FLL Hydro Dynamics Scorer";
+		};
+		68AB10DE1F5F67ED0001F384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68AB10B11F5F67ED0001F384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68AB10B81F5F67ED0001F384;
+			remoteInfo = "FLL Hydro Dynamics Scorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68AB10B91F5F67ED0001F384 /* FLL Hydro Dynamics Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLL Hydro Dynamics Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68AB10BD1F5F67ED0001F384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68AB10BF1F5F67ED0001F384 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68AB10C01F5F67ED0001F384 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68AB10C21F5F67ED0001F384 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68AB10C31F5F67ED0001F384 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68AB10C61F5F67ED0001F384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68AB10C81F5F67ED0001F384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68AB10CB1F5F67ED0001F384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68AB10CD1F5F67ED0001F384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68AB10D21F5F67ED0001F384 /* FLL Hydro Dynamics ScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL Hydro Dynamics ScorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68AB10D61F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLL_Hydro_Dynamics_ScorerTests.m; sourceTree = "<group>"; };
+		68AB10D81F5F67ED0001F384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68AB10DD1F5F67ED0001F384 /* FLL Hydro Dynamics ScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL Hydro Dynamics ScorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68AB10E11F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLL_Hydro_Dynamics_ScorerUITests.m; sourceTree = "<group>"; };
+		68AB10E31F5F67ED0001F384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68AB10B61F5F67ED0001F384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68AB10CF1F5F67ED0001F384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68AB10DA1F5F67ED0001F384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68AB10B01F5F67ED0001F384 = {
+			isa = PBXGroup;
+			children = (
+				68AB10BB1F5F67ED0001F384 /* FLL Hydro Dynamics Scorer */,
+				68AB10D51F5F67ED0001F384 /* FLL Hydro Dynamics ScorerTests */,
+				68AB10E01F5F67ED0001F384 /* FLL Hydro Dynamics ScorerUITests */,
+				68AB10BA1F5F67ED0001F384 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68AB10BA1F5F67ED0001F384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68AB10B91F5F67ED0001F384 /* FLL Hydro Dynamics Scorer.app */,
+				68AB10D21F5F67ED0001F384 /* FLL Hydro Dynamics ScorerTests.xctest */,
+				68AB10DD1F5F67ED0001F384 /* FLL Hydro Dynamics ScorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68AB10BB1F5F67ED0001F384 /* FLL Hydro Dynamics Scorer */ = {
+			isa = PBXGroup;
+			children = (
+				68AB10BF1F5F67ED0001F384 /* AppDelegate.h */,
+				68AB10C01F5F67ED0001F384 /* AppDelegate.m */,
+				68AB10C21F5F67ED0001F384 /* ViewController.h */,
+				68AB10C31F5F67ED0001F384 /* ViewController.m */,
+				68AB10C51F5F67ED0001F384 /* Main.storyboard */,
+				68AB10C81F5F67ED0001F384 /* Assets.xcassets */,
+				68AB10CA1F5F67ED0001F384 /* LaunchScreen.storyboard */,
+				68AB10CD1F5F67ED0001F384 /* Info.plist */,
+				68AB10BC1F5F67ED0001F384 /* Supporting Files */,
+			);
+			path = "FLL Hydro Dynamics Scorer";
+			sourceTree = "<group>";
+		};
+		68AB10BC1F5F67ED0001F384 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68AB10BD1F5F67ED0001F384 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68AB10D51F5F67ED0001F384 /* FLL Hydro Dynamics ScorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				68AB10D61F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerTests.m */,
+				68AB10D81F5F67ED0001F384 /* Info.plist */,
+			);
+			path = "FLL Hydro Dynamics ScorerTests";
+			sourceTree = "<group>";
+		};
+		68AB10E01F5F67ED0001F384 /* FLL Hydro Dynamics ScorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68AB10E11F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerUITests.m */,
+				68AB10E31F5F67ED0001F384 /* Info.plist */,
+			);
+			path = "FLL Hydro Dynamics ScorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68AB10B81F5F67ED0001F384 /* FLL Hydro Dynamics Scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68AB10E61F5F67ED0001F384 /* Build configuration list for PBXNativeTarget "FLL Hydro Dynamics Scorer" */;
+			buildPhases = (
+				68AB10B51F5F67ED0001F384 /* Sources */,
+				68AB10B61F5F67ED0001F384 /* Frameworks */,
+				68AB10B71F5F67ED0001F384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLL Hydro Dynamics Scorer";
+			productName = "FLL Hydro Dynamics Scorer";
+			productReference = 68AB10B91F5F67ED0001F384 /* FLL Hydro Dynamics Scorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68AB10D11F5F67ED0001F384 /* FLL Hydro Dynamics ScorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68AB10E91F5F67ED0001F384 /* Build configuration list for PBXNativeTarget "FLL Hydro Dynamics ScorerTests" */;
+			buildPhases = (
+				68AB10CE1F5F67ED0001F384 /* Sources */,
+				68AB10CF1F5F67ED0001F384 /* Frameworks */,
+				68AB10D01F5F67ED0001F384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68AB10D41F5F67ED0001F384 /* PBXTargetDependency */,
+			);
+			name = "FLL Hydro Dynamics ScorerTests";
+			productName = "FLL Hydro Dynamics ScorerTests";
+			productReference = 68AB10D21F5F67ED0001F384 /* FLL Hydro Dynamics ScorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68AB10DC1F5F67ED0001F384 /* FLL Hydro Dynamics ScorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68AB10EC1F5F67ED0001F384 /* Build configuration list for PBXNativeTarget "FLL Hydro Dynamics ScorerUITests" */;
+			buildPhases = (
+				68AB10D91F5F67ED0001F384 /* Sources */,
+				68AB10DA1F5F67ED0001F384 /* Frameworks */,
+				68AB10DB1F5F67ED0001F384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68AB10DF1F5F67ED0001F384 /* PBXTargetDependency */,
+			);
+			name = "FLL Hydro Dynamics ScorerUITests";
+			productName = "FLL Hydro Dynamics ScorerUITests";
+			productReference = 68AB10DD1F5F67ED0001F384 /* FLL Hydro Dynamics ScorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68AB10B11F5F67ED0001F384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ev3lessons;
+				TargetAttributes = {
+					68AB10B81F5F67ED0001F384 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					68AB10D11F5F67ED0001F384 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68AB10B81F5F67ED0001F384;
+					};
+					68AB10DC1F5F67ED0001F384 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68AB10B81F5F67ED0001F384;
+					};
+				};
+			};
+			buildConfigurationList = 68AB10B41F5F67ED0001F384 /* Build configuration list for PBXProject "FLL Hydro Dynamics Scorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68AB10B01F5F67ED0001F384;
+			productRefGroup = 68AB10BA1F5F67ED0001F384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68AB10B81F5F67ED0001F384 /* FLL Hydro Dynamics Scorer */,
+				68AB10D11F5F67ED0001F384 /* FLL Hydro Dynamics ScorerTests */,
+				68AB10DC1F5F67ED0001F384 /* FLL Hydro Dynamics ScorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68AB10B71F5F67ED0001F384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AB10CC1F5F67ED0001F384 /* LaunchScreen.storyboard in Resources */,
+				68AB10C91F5F67ED0001F384 /* Assets.xcassets in Resources */,
+				68AB10C71F5F67ED0001F384 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68AB10D01F5F67ED0001F384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68AB10DB1F5F67ED0001F384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68AB10B51F5F67ED0001F384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AB10C41F5F67ED0001F384 /* ViewController.m in Sources */,
+				68AB10C11F5F67ED0001F384 /* AppDelegate.m in Sources */,
+				68AB10BE1F5F67ED0001F384 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68AB10CE1F5F67ED0001F384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AB10D71F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68AB10D91F5F67ED0001F384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AB10E21F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68AB10D41F5F67ED0001F384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68AB10B81F5F67ED0001F384 /* FLL Hydro Dynamics Scorer */;
+			targetProxy = 68AB10D31F5F67ED0001F384 /* PBXContainerItemProxy */;
+		};
+		68AB10DF1F5F67ED0001F384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68AB10B81F5F67ED0001F384 /* FLL Hydro Dynamics Scorer */;
+			targetProxy = 68AB10DE1F5F67ED0001F384 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68AB10C51F5F67ED0001F384 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68AB10C61F5F67ED0001F384 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68AB10CA1F5F67ED0001F384 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68AB10CB1F5F67ED0001F384 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68AB10E41F5F67ED0001F384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68AB10E51F5F67ED0001F384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68AB10E71F5F67ED0001F384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FLL Hydro Dynamics Scorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Hydro-Dynamics-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68AB10E81F5F67ED0001F384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FLL Hydro Dynamics Scorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Hydro-Dynamics-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68AB10EA1F5F67ED0001F384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FLL Hydro Dynamics ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Hydro-Dynamics-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL Hydro Dynamics Scorer.app/FLL Hydro Dynamics Scorer";
+			};
+			name = Debug;
+		};
+		68AB10EB1F5F67ED0001F384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FLL Hydro Dynamics ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Hydro-Dynamics-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL Hydro Dynamics Scorer.app/FLL Hydro Dynamics Scorer";
+			};
+			name = Release;
+		};
+		68AB10ED1F5F67ED0001F384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FLL Hydro Dynamics ScorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Hydro-Dynamics-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FLL Hydro Dynamics Scorer";
+			};
+			name = Debug;
+		};
+		68AB10EE1F5F67ED0001F384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FLL Hydro Dynamics ScorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Hydro-Dynamics-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FLL Hydro Dynamics Scorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68AB10B41F5F67ED0001F384 /* Build configuration list for PBXProject "FLL Hydro Dynamics Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AB10E41F5F67ED0001F384 /* Debug */,
+				68AB10E51F5F67ED0001F384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68AB10E61F5F67ED0001F384 /* Build configuration list for PBXNativeTarget "FLL Hydro Dynamics Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AB10E71F5F67ED0001F384 /* Debug */,
+				68AB10E81F5F67ED0001F384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68AB10E91F5F67ED0001F384 /* Build configuration list for PBXNativeTarget "FLL Hydro Dynamics ScorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AB10EA1F5F67ED0001F384 /* Debug */,
+				68AB10EB1F5F67ED0001F384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68AB10EC1F5F67ED0001F384 /* Build configuration list for PBXNativeTarget "FLL Hydro Dynamics ScorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AB10ED1F5F67ED0001F384 /* Debug */,
+				68AB10EE1F5F67ED0001F384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68AB10B11F5F67ED0001F384 /* Project object */;
+}
